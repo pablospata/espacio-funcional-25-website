@@ -1,6 +1,6 @@
 # Espacio Funcional 25 · sitio
 
-10/10/2026 · v2 en la vista previa de GitHub Pages, tras cinco auditorías y con el mensaje «te cuida» · sigue: revisión del texto con Nicolás, dominio y publicación en Hostinger
+10/10/2026 02:10 · v2 publicada en la vista previa de GitHub Pages, con el titular «Entrená acompañado.» · sigue: revisión del texto con Nicolás, dominio y publicación en Hostinger
 
 Sitio de una sola página de Espacio Funcional 25, el entrenamiento funcional del Prof. Nicolás Guido Valle en el Cuartel de Bomberos de 25 de Mayo. Su trabajo: que alguien de 25 de Mayo que llega desde Instagram o WhatsApp entienda en segundos qué es, dónde queda, cuánto sale y en qué horarios hay clase, y que reserve la clase de prueba gratis por WhatsApp.
 
