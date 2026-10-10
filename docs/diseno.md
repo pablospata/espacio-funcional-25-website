@@ -36,7 +36,7 @@
 
 ## Cambios del copy respecto del plan v0
 
-- Titular: "Que quieras volver." con "Entrenamiento funcional en 25 de Mayo" como primera línea del `h1` (chica, con el punto naranja).
+- Titular: "Entrená acompañado." (elegido por Pablo el 10/10/2026), con "Entrenamiento funcional en 25 de Mayo" como primera línea del `h1` (chica, con el punto naranja). Reemplazó a "Que quieras volver.", que no se entendía sin conocer la idea de Nicolás: es la conclusión de su razonamiento y daba por sabido el contexto. Se descartaron "Con el profe al lado." y "Nunca entrenás solo."
 - Licenciatura con año 2023 (Pablo confirmó que terminó en 2023 y el diploma se emitió en marzo de 2024).
 - El profe: por pedido de Pablo ("en el CV hay información importante para publicar"), además de la bio va la trayectoria completa: experiencia, formación y una lista desplegable de cursos. Quedan afuera los datos personales, los dos años de Medicina (pregunta para Nicolás) y los cursos de gestión educativa.
 - Bloque final: el título es la frase de Nicolás del reel del 28/07/2026, "No hace falta que estés en forma para arrancar."

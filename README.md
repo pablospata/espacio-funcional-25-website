@@ -57,20 +57,21 @@ sed -i 's/espaciofuncional25\.com\.ar/espaciofuncional25.com/g' index.html robot
 
 ## Decisiones tomadas sin Nicolás (revisar)
 
-1. **La cita de El enfoque está reconstruida** a partir de los subtítulos del reel del 28/07/2026, que puede tener palabras de menos, y va firmada "Nicolás Valle · Profe de Espacio Funcional 25". Dice: «Lo más fácil para un entrenador: Agotarte hasta dejarte sin aire. Lo difícil, y lo que de verdad importa: Que quieras volver cada semana, sin lastimarte entrenando.»
-2. **"Valores de octubre de 2026."** El mes del precio es un supuesto. En el JSON-LD figura como `validFrom: 2026-10-01`.
-3. **"¿Preferís llamar? 2345-402547"**, con `tel:+5492345402547`. No se sabe si ese número atiende llamadas o solo WhatsApp.
-4. **"Y otra vuelta"** al final del circuito. Ninguna fuente dice que en la clase se repita el circuito. Si no se repite, el rótulo pasa a ser «Y la estación siguiente».
-5. **El circuito es un ejemplo** ("Una vuelta del circuito, por ejemplo"). Tiene las cinco estaciones del PDF en el mismo orden y el material que se ve en los reels: sentadillas con mancuernas, press con mancuernas, remo con TRX, core con la pelota medicinal, y saltos, cubierta y maza.
-6. **La trayectoria completa del CV**, que pidió Pablo: "Equipo de conducción del CEF Nº 198 · Secretario" (2025 – hoy), la docencia "en todos los niveles de la educación obligatoria, y en el CEF" y la lista de cursos (el seminario de obesidad y el de RCP, a la vista en Formación). Quedan afuera los dos años de Medicina y los cursos de gestión educativa. La licenciatura va con 2023, que confirmó Pablo (el diploma es de marzo de 2024).
-7. **La bio** termina con «En el espacio planifica los entrenamientos, adapta cada ejercicio a tu nivel y corrige la técnica de cada uno.». Es una síntesis del PDF y del reel, no una frase textual suya.
-8. **El mensaje central es que te cuida**, igual que en el plan del Instagram: en El enfoque van tres promesas («Sabe lo que hace», «Te adapta», «Te cuida: no entrenás solo, te mira, te corrige la técnica y se fija que estés bien; la salud va primero»), la portada dice «con cada ejercicio adaptado a tu nivel» y el bloque del 7 dice «así el profe te ve a vos». Sale de lo que Pablo cuenta que remarca Nicolás y del PDF («esfuerzo adaptado», «progresión gradual», «técnica correcta»). En Formación quedan a la vista el seminario de ejercicio para personas con obesidad y el curso de RCP.
-9. **La bolita del circuito da una sola vuelta de 5 segundos** cada vez que la pista entra en pantalla, y con «reducir movimiento» no se mueve (WCAG 2.2.2; antes daba vueltas sin fin, hallazgo A11Y-9).
-10. **"Pablo Añon" y "Emiliano Gonzalez"** van sin tilde, como en el CV.
-11. **El WhatsApp va con el 9** (`wa.me/5492345402547`), y el mensaje prellenado es «Hola, Nicolás. Vi la página de Espacio Funcional 25 y quiero reservar la clase de prueba gratis. ¿Qué turno tenés libre?». Así se sabe de dónde vino cada uno. Falta probarlo en un celular.
-12. **Hay fotos de alumnos que se reconocen** en la portada, en Cómo es la clase y en Dónde estamos. Se usan con la autorización de Nicolás para las fotos de Instagram.
-13. **No hay mapa embebido**: solo el botón "Cómo llegar", que abre la ficha del cuartel en Google Maps. Cuando Nicolás tenga su Perfil de Empresa, hay que cambiar `hasMap` en el JSON-LD.
-14. **No se dice cuántos lugares quedan por turno**, porque habría que actualizarlo cada vez.
+1. **Titular: «Entrená acompañado.»**, elegido por Pablo. Reemplazó a «Que quieras volver.», que no se entendía sin el contexto de la idea de Nicolás.
+2. **La cita de El enfoque está reconstruida** a partir de los subtítulos del reel del 28/07/2026, que puede tener palabras de menos, y va firmada "Nicolás Valle · Profe de Espacio Funcional 25". Dice: «Lo más fácil para un entrenador: Agotarte hasta dejarte sin aire. Lo difícil, y lo que de verdad importa: Que quieras volver cada semana, sin lastimarte entrenando.»
+3. **"Valores de octubre de 2026."** El mes del precio es un supuesto. En el JSON-LD figura como `validFrom: 2026-10-01`.
+4. **"¿Preferís llamar? 2345-402547"**, con `tel:+5492345402547`. No se sabe si ese número atiende llamadas o solo WhatsApp.
+5. **"Y otra vuelta"** al final del circuito. Ninguna fuente dice que en la clase se repita el circuito. Si no se repite, el rótulo pasa a ser «Y la estación siguiente».
+6. **El circuito es un ejemplo** ("Una vuelta del circuito, por ejemplo"). Tiene las cinco estaciones del PDF en el mismo orden y el material que se ve en los reels: sentadillas con mancuernas, press con mancuernas, remo con TRX, core con la pelota medicinal, y saltos, cubierta y maza.
+7. **La trayectoria completa del CV**, que pidió Pablo: "Equipo de conducción del CEF Nº 198 · Secretario" (2025 – hoy), la docencia "en todos los niveles de la educación obligatoria, y en el CEF" y la lista de cursos (el seminario de obesidad y el de RCP, a la vista en Formación). Quedan afuera los dos años de Medicina y los cursos de gestión educativa. La licenciatura va con 2023, que confirmó Pablo (el diploma es de marzo de 2024).
+8. **La bio** termina con «En el espacio planifica los entrenamientos, adapta cada ejercicio a tu nivel y corrige la técnica de cada uno.». Es una síntesis del PDF y del reel, no una frase textual suya.
+9. **El mensaje central es que te cuida**, igual que en el plan del Instagram: en El enfoque van tres promesas («Sabe lo que hace», «Te adapta», «Te cuida: no entrenás solo, te mira, te corrige la técnica y se fija que estés bien; la salud va primero»), la portada dice «con cada ejercicio adaptado a tu nivel» y el bloque del 7 dice «así el profe te ve a vos». Sale de lo que Pablo cuenta que remarca Nicolás y del PDF («esfuerzo adaptado», «progresión gradual», «técnica correcta»). En Formación quedan a la vista el seminario de ejercicio para personas con obesidad y el curso de RCP.
+10. **La bolita del circuito da una sola vuelta de 5 segundos** cada vez que la pista entra en pantalla, y con «reducir movimiento» no se mueve (WCAG 2.2.2; antes daba vueltas sin fin, hallazgo A11Y-9).
+11. **"Pablo Añon" y "Emiliano Gonzalez"** van sin tilde, como en el CV.
+12. **El WhatsApp va con el 9** (`wa.me/5492345402547`), y el mensaje prellenado es «Hola, Nicolás. Vi la página de Espacio Funcional 25 y quiero reservar la clase de prueba gratis. ¿Qué turno tenés libre?». Así se sabe de dónde vino cada uno. Falta probarlo en un celular.
+13. **Hay fotos de alumnos que se reconocen** en la portada, en Cómo es la clase y en Dónde estamos. Se usan con la autorización de Nicolás para las fotos de Instagram.
+14. **No hay mapa embebido**: solo el botón "Cómo llegar", que abre la ficha del cuartel en Google Maps. Cuando Nicolás tenga su Perfil de Empresa, hay que cambiar `hasMap` en el JSON-LD.
+15. **No se dice cuántos lugares quedan por turno**, porque habría que actualizarlo cada vez.
 
 ## Decisiones de Pablo (de las auditorías)
 
