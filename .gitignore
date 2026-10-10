@@ -1,0 +1,5 @@
+# originales de Instagram: solo en local (hay fotos de alumnos y de menores)
+docs/fotos-instagram/*
+!docs/fotos-instagram/INDICE.md
+*.log
+.DS_Store

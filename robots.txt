@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /docs/
+Sitemap: https://espaciofuncional25.com.ar/sitemap.xml

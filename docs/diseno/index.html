@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diseño · Espacio Funcional 25</title>
+<link rel="preload" href="fonts/barlow-sc-700.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face { font-family: "Barlow"; src: url(fonts/barlow-400.woff2) format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url(fonts/barlow-500.woff2) format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url(fonts/barlow-600.woff2) format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url(fonts/barlow-sc-600.woff2) format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url(fonts/barlow-sc-700.woff2) format("woff2"); font-weight: 700; font-display: swap; }
+
+:root {
+  --tinta: #17181A;
+  --tinta-2: #3B3F45;
+  --gris: #5C626A;
+  --linea: #E2E4E8;
+  --niebla: #F2F3F5;
+  --blanco: #FFFFFF;
+  --naranja: #FF7B02;
+  --naranja-2: #F26F00;
+
+  --titulo: "Barlow Semi Condensed", "Arial Narrow", Arial, sans-serif;
+  --texto: "Barlow", Arial, sans-serif;
+
+  --gutter: 1rem;
+  --ancho: 75rem;
+  --seccion: 4rem;
+  --r: 1.125rem;
+  --r-chico: .75rem;
+  --sombra: 0 1px 2px rgb(23 24 26 / .06), 0 10px 30px rgb(23 24 26 / .07);
+  --barra: 4.75rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 1rem; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  margin: 0;
+  font: 400 1.125rem/1.55 var(--texto);
+  color: var(--tinta);
+  background: var(--blanco);
+}
+img { display: block; max-width: 100%; height: auto; }
+figure { margin: 0; }
+.clase-lado { display: grid; gap: 1.5rem; align-content: start; }
+a { color: inherit; }
+h1, h2, h3 { font-family: var(--titulo); font-weight: 700; margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+p { margin: 0; text-wrap: pretty; }
+:focus-visible { outline: 3px solid var(--tinta); outline-offset: 3px; border-radius: 4px; }
+
+.contenedor { width: 100%; max-width: calc(var(--ancho) + 2 * var(--gutter)); margin-inline: auto; padding-inline: var(--gutter); }
+.seccion { padding-block: var(--seccion); }
+.seccion--niebla { background: var(--niebla); }
+#enfoque { padding-top: calc(var(--seccion) + 1.5rem); }
+
+/* tipografía */
+.h1 { font-size: 2.75rem; line-height: 1; }
+.h2 { font-size: 2.125rem; line-height: 1.05; }
+.h3 { font-size: 1.375rem; line-height: 1.15; font-weight: 600; letter-spacing: 0; }
+.bajada { font-size: 1.1875rem; line-height: 1.45; color: var(--tinta-2); max-width: 36rem; }
+.chico { font-size: .9375rem; line-height: 1.45; color: var(--gris); }
+.antetitulo { display: inline-flex; align-items: center; gap: .5rem; font: 600 .9375rem/1.2 var(--texto); color: var(--tinta-2); }
+.antetitulo::before { content: ""; width: .625rem; height: .625rem; border-radius: 50%; background: var(--naranja); }
+
+/* botones */
+.boton {
+  display: inline-flex; align-items: center; justify-content: center; gap: .625rem;
+  min-height: 3.5rem; padding: .75rem 1.5rem; border-radius: 999px;
+  font: 600 1.125rem/1.2 var(--texto); text-decoration: none; text-align: center;
+  border: 0; cursor: pointer; transition: background-color .15s ease;
+}
+.boton svg { width: 1.375rem; height: 1.375rem; flex: none; }
+.boton--naranja { background: var(--naranja); color: var(--tinta); }
+.boton--naranja:hover { background: var(--naranja-2); }
+.boton--tinta { background: var(--tinta); color: var(--blanco); }
+.boton--tinta:hover { background: #2C2E32; }
+.boton--borde { background: transparent; color: var(--tinta); box-shadow: inset 0 0 0 2px var(--tinta); min-height: 3rem; padding-inline: 1.25rem; font-size: 1rem; }
+.boton--borde:hover { background: var(--niebla); }
+.boton--ancho { width: 100%; }
+
+/* encabezado */
+.cabecera { border-bottom: 1px solid var(--linea); background: var(--blanco); }
+.cabecera .contenedor { display: flex; align-items: center; gap: .75rem; min-height: 4rem; }
+.marca { display: flex; align-items: center; gap: .625rem; margin-right: auto; text-decoration: none; min-height: 2.75rem; }
+.marca img { width: 2.5rem; height: 2.5rem; }
+.marca span { font: 700 1.1875rem/1 var(--titulo); letter-spacing: 0; white-space: nowrap; }
+.nav { display: none; }
+.icono-boton {
+  display: inline-grid; place-items: center; width: 2.75rem; height: 2.75rem; border-radius: 50%;
+  border: 0; background: var(--niebla); color: var(--tinta); cursor: pointer; text-decoration: none;
+}
+.icono-boton svg { width: 1.375rem; height: 1.375rem; }
+.icono-boton--naranja { background: var(--naranja); }
+.cabecera .boton--naranja { display: none; }
+
+/* portada */
+.portada { padding-top: 1.75rem; padding-bottom: 1.5rem; }
+.portada-texto { display: grid; gap: 1rem; }
+.portada .h1 { margin-top: .25rem; }
+.portada-acciones { display: grid; gap: .75rem; margin-top: .75rem; }
+.portada-foto { position: relative; margin-top: 2rem; }
+.portada-foto img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--r); }
+.portada-foto .foto-ancha { display: none; }
+.etiqueta-foto {
+  position: absolute; left: .75rem; bottom: .75rem; display: inline-flex; align-items: center; gap: .5rem;
+  padding: .5rem .875rem; border-radius: 999px; background: rgb(255 255 255 / .94);
+  font: 600 .9375rem/1.2 var(--texto);
+}
+.etiqueta-foto::before { content: ""; width: .5rem; height: .5rem; border-radius: 50%; background: var(--naranja); }
+.datos { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 1.25rem; border-radius: var(--r); background: var(--niebla); }
+.dato { padding: 1rem .875rem; }
+.dato + .dato { border-left: 1px solid var(--linea); }
+.dato dt { font: 500 .875rem/1.2 var(--texto); color: var(--gris); }
+.dato dd { margin: .375rem 0 0; font: 700 1.75rem/1 var(--titulo); }
+.dato dd small { display: block; margin-top: .25rem; font: 500 .875rem/1.2 var(--texto); color: var(--gris); }
+
+/* enfoque */
+.enfoque { display: grid; gap: 2rem; }
+.contraste { display: grid; gap: 1.25rem; margin-top: 1.75rem; }
+.contraste p { font: 600 1.625rem/1.15 var(--titulo); letter-spacing: -.005em; }
+.contraste .facil { color: var(--gris); }
+.contraste .dificil { color: var(--tinta); }
+.contraste .dificil span { background: linear-gradient(transparent 62%, rgb(255 123 2 / .45) 62%); }
+.contraste small { display: block; margin-bottom: .375rem; font: 600 .875rem/1.2 var(--texto); letter-spacing: .04em; text-transform: uppercase; color: var(--gris); }
+.enfoque-texto { display: grid; gap: 1rem; color: var(--tinta-2); max-width: 38rem; }
+.firma { display: flex; align-items: center; gap: .875rem; margin-top: .5rem; }
+.firma img { width: 3.25rem; height: 3.25rem; border-radius: 50%; object-fit: cover; }
+.firma b { display: block; font-weight: 600; color: var(--tinta); }
+
+/* clase */
+.clase-cabeza { display: grid; gap: 1rem; }
+.clase-grilla { display: grid; gap: 2.5rem; margin-top: 2.5rem; }
+.pista { --x: .5625rem; --punto: 1.125rem; position: relative; list-style: none; margin: 0; padding: 0 0 0 calc(var(--x) + 1.375rem); }
+.pista::before { content: ""; position: absolute; left: calc(var(--x) - 2px); top: .75rem; bottom: .75rem; border-left: 4px solid var(--naranja); }
+.pista li { position: relative; padding-bottom: 1.375rem; }
+.pista li::before { content: ""; position: absolute; z-index: 1; left: calc(-1.375rem - var(--punto) / 2); top: calc(.75rem - var(--punto) / 2); width: var(--punto); height: var(--punto); border-radius: 50%; background: var(--blanco); box-shadow: inset 0 0 0 3px var(--tinta); }
+.pista b { display: block; font: 600 1.25rem/1.5rem var(--titulo); }
+.pista span { display: block; margin-top: .125rem; color: var(--tinta-2); font-size: 1.0625rem; line-height: 1.45; }
+.pista li.vuelta { padding-bottom: 0; }
+.pista li.vuelta::before { display: none; }
+.pista li.vuelta svg { position: absolute; z-index: 1; left: calc(-1.375rem - .8125rem); top: -.0625rem; width: 1.625rem; height: 1.625rem; color: var(--naranja); background: var(--blanco); border-radius: 50%; }
+.pista li.vuelta p { font: 600 1.0625rem/1.5rem var(--texto); color: var(--tinta); }
+.pista-caja { position: relative; }
+.cupo { display: grid; gap: 1.25rem; padding: 1.5rem; border-radius: var(--r); background: var(--blanco); box-shadow: var(--sombra); }
+.cupo-num { display: flex; align-items: center; gap: 1rem; }
+.cupo-num strong { font: 700 4.5rem/.8 var(--titulo); }
+.cupo-num span { font: 600 1.375rem/1.1 var(--titulo); }
+.personas { display: flex; gap: .375rem; color: var(--tinta); }
+.personas svg { width: 1.5rem; height: 1.875rem; fill: currentColor; }
+.cupo p { color: var(--tinta-2); }
+.clase-foto img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--r); }
+.clase-foto figcaption { margin-top: .625rem; }
+
+/* turnos y cuota */
+.turnos-cabeza { display: grid; gap: 1rem; }
+.cuota-grilla { display: grid; gap: 1rem; margin-top: 2rem; }
+.tarjeta { border-radius: var(--r); padding: 1.5rem; }
+.tarjeta--linea { box-shadow: inset 0 0 0 1px var(--linea); }
+.tarjeta--tinta { background: var(--tinta); color: var(--blanco); }
+.tarjeta--niebla { background: var(--niebla); }
+.tarjeta-titulo { font: 600 .9375rem/1.2 var(--texto); letter-spacing: .04em; text-transform: uppercase; color: var(--gris); }
+.tarjeta--tinta .tarjeta-titulo { color: #B9BDC3; }
+.horarios { list-style: none; margin: 1rem 0 0; padding: 0; }
+.horarios li { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding-block: .875rem; border-top: 1px solid var(--linea); }
+.horarios li:first-child { border-top: 0; padding-top: .25rem; }
+.horarios .dias { font-weight: 600; }
+.horarios .hora { font: 700 1.875rem/1 var(--titulo); white-space: nowrap; }
+.horarios-nota { margin-top: .5rem; }
+.precio { display: flex; align-items: baseline; gap: .5rem; margin-top: .75rem; }
+.precio strong { font: 700 3.5rem/1 var(--titulo); letter-spacing: -.01em; }
+.precio span { font-size: 1.0625rem; color: #B9BDC3; }
+.incluye { list-style: none; margin: 1.25rem 0 0; padding: 0; display: grid; gap: .625rem; }
+.incluye li { display: grid; grid-template-columns: 1.375rem 1fr; gap: .625rem; line-height: 1.4; }
+.incluye svg { width: 1.375rem; height: 1.375rem; color: var(--naranja); margin-top: .0625rem; }
+.vigencia { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid #34373C; font-size: .9375rem; color: #B9BDC3; }
+.complemento { display: grid; gap: .75rem; }
+.complemento-precios { display: grid; gap: .5rem; margin-top: .5rem; }
+.complemento-precios div { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: .875rem 1rem; border-radius: var(--r-chico); background: var(--blanco); }
+.complemento-precios b { font: 700 1.5rem/1 var(--titulo); white-space: nowrap; }
+.complemento-precios span { color: var(--tinta-2); font-size: 1rem; line-height: 1.3; }
+
+/* profe */
+.profe { display: grid; gap: 2rem; }
+.profe-foto img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--r); }
+.profe-texto { display: grid; gap: 1rem; align-content: start; }
+.profe-rol { font: 600 1.125rem/1.3 var(--texto); color: var(--tinta-2); }
+.trayectoria { margin: 1rem 0 0; display: grid; }
+.trayectoria div { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1rem; padding-block: .875rem; border-top: 1px solid var(--linea); }
+.trayectoria dt { font: 600 1.0625rem/1.4 var(--titulo); color: var(--gris); }
+.trayectoria dd { margin: 0; line-height: 1.4; }
+.trayectoria dd b { display: block; font-weight: 600; }
+.cursos { margin-top: .5rem; border-top: 1px solid var(--linea); }
+.cursos summary { display: flex; align-items: center; justify-content: space-between; min-height: 3.25rem; cursor: pointer; font-weight: 600; list-style: none; }
+.cursos summary::-webkit-details-marker { display: none; }
+.cursos summary::after { content: "+"; font: 600 1.5rem/1 var(--texto); }
+.cursos[open] summary::after { content: "–"; }
+.cursos ul { margin: 0 0 1rem; padding-left: 1.125rem; color: var(--tinta-2); display: grid; gap: .375rem; font-size: 1rem; }
+
+/* clase de prueba y dónde */
+.final { background: var(--naranja); }
+.final-grilla { display: grid; gap: 2rem; }
+.final-texto { display: grid; gap: 1rem; align-content: start; }
+.final .h2 { font-size: 2.5rem; line-height: 1; }
+.final-texto p { font-size: 1.1875rem; line-height: 1.45; max-width: 32rem; }
+.final .boton--tinta { margin-top: .5rem; }
+.final .chico { color: var(--tinta); }
+.lugar { border-radius: var(--r); background: var(--blanco); overflow: hidden; box-shadow: 0 1px 2px rgb(23 24 26 / .1), 0 14px 34px rgb(120 50 0 / .18); }
+.lugar img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+.lugar-texto { display: grid; gap: .75rem; padding: 1.25rem 1.25rem 1.5rem; }
+.lugar address { font-style: normal; line-height: 1.45; color: var(--tinta-2); }
+.lugar address b { display: block; color: var(--tinta); font-weight: 600; font-size: 1.1875rem; }
+.lugar-acciones { display: flex; flex-wrap: wrap; gap: .625rem; margin-top: .25rem; }
+
+/* pie */
+.pie { background: var(--tinta); color: #C9CCD1; padding-block: 2.5rem calc(2.5rem + var(--barra)); font-size: .9375rem; }
+.pie .contenedor { display: grid; gap: 1.25rem; }
+.pie-marca { display: flex; align-items: center; gap: .625rem; color: var(--blanco); font: 700 1.125rem/1 var(--titulo); }
+.pie-marca img { width: 2.25rem; height: 2.25rem; }
+.pie nav { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; }
+.pie a { display: inline-flex; align-items: center; min-height: 2.75rem; color: var(--blanco); text-underline-offset: .2em; }
+.pie :focus-visible { outline-color: var(--blanco); }
+
+/* barra fija del celular */
+.barra {
+  position: fixed; inset: auto 0 0 0; z-index: 20;
+  padding: .625rem var(--gutter) calc(.625rem + env(safe-area-inset-bottom));
+  background: rgb(255 255 255 / .96); border-top: 1px solid var(--linea);
+  transform: translateY(110%); transition: transform .25s ease;
+}
+.barra.visible { transform: none; }
+.barra .boton { min-height: 3.25rem; }
+@media (prefers-reduced-motion: reduce) { .barra { transition: none; } }
+
+
+/* ===== detalles con carácter ===== */
+.foto-bn { }
+.chevron { height: .875rem; background: repeating-linear-gradient(-45deg, var(--naranja) 0 .625rem, var(--tinta) .625rem 1.25rem); }
+.h1 .cinta { display: inline-block; background: var(--naranja); padding: .04em .14em .08em; margin: .06em 0 0 -.04em; line-height: .92; transform: rotate(-1.6deg); border-radius: 2px; }
+.portada .h1 { font-size: 3.5rem; line-height: .98; }
+.portada-foto { isolation: isolate; }
+.portada-foto .marco { position: relative; border-radius: var(--r); overflow: hidden; }
+.portada-foto .marco img { border-radius: 0; }
+.portada-foto .marco .chevron { position: absolute; inset: auto 0 0 0; }
+.sello { position: absolute; z-index: 2; right: -.25rem; top: -2.25rem; width: 7.25rem; height: 7.25rem; transform: rotate(-10deg); filter: drop-shadow(0 6px 14px rgb(23 24 26 / .25)); }
+.sello-disco { fill: var(--naranja); }
+.sello-borde { fill: none; stroke: var(--tinta); stroke-width: 1.5; stroke-dasharray: 2 3; }
+.sello-txt { font: 700 10.5px var(--texto); letter-spacing: .16em; fill: var(--tinta); }
+.sello-num { font: 700 40px var(--titulo); fill: var(--tinta); }
+.etiqueta-foto { bottom: 1.5rem; }
+.cinta-banda { position: relative; z-index: 3; overflow: hidden; padding-block: 1.5rem; margin-bottom: -3.25rem; }
+.cinta-banda .giro { width: 112%; margin-left: -6%; transform: rotate(-2.2deg); background: var(--tinta); overflow: hidden; }
+.cinta-banda .tira { display: flex; gap: 1.25rem; width: max-content; padding: .75rem 1rem; color: var(--blanco); font: 700 1.625rem/1 var(--titulo); text-transform: uppercase; letter-spacing: .02em; white-space: nowrap; }
+.cinta-banda b { color: var(--naranja); font-weight: 700; }
+
+.final::before { content: ""; position: absolute; inset: 0 0 auto 0; height: .875rem; background: repeating-linear-gradient(-45deg, var(--naranja) 0 .625rem, var(--tinta) .625rem 1.25rem); }
+.pista::before { background: none; }
+.pista .corredor { position: absolute; z-index: 2; left: calc(-1.375rem - .4375rem); top: .3125rem; width: .875rem; height: .875rem; border-radius: 50%; background: var(--naranja); box-shadow: 0 0 0 3px var(--blanco), 0 0 0 5px var(--naranja); animation: correr 7s cubic-bezier(.6,0,.4,1) infinite; }
+@keyframes correr { 0% { top: .3125rem; opacity: 0; } 3% { opacity: 1; } 96% { opacity: 1; } 18%, 20% { top: var(--p1); } 38%, 40% { top: var(--p2); } 58%, 60% { top: var(--p3); } 78%, 80% { top: var(--p4); } 98% { top: var(--p5); opacity: 1; } 100% { top: var(--p5); opacity: 0; } }
+@keyframes correr-h { 0% { left: .125rem; opacity: 0; } 3% { opacity: 1; } 18%, 20% { left: var(--p1); } 38%, 40% { left: var(--p2); } 58%, 60% { left: var(--p3); } 78%, 80% { left: var(--p4); } 96% { opacity: 1; } 98% { left: var(--p5); opacity: 1; } 100% { left: var(--p5); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .pista .corredor { animation: none; } }
+.cupo-num strong { font-size: 6.5rem; }
+.tarjeta--tinta { position: relative; overflow: hidden; }
+.tarjeta--tinta::after { content: ""; position: absolute; inset: 0 0 auto 0; height: .5rem; background: repeating-linear-gradient(-45deg, var(--naranja) 0 .5rem, var(--tinta) .5rem 1rem); }
+.pie { position: relative; }
+
+
+/* ===== fondos con textura: rombos y discos del logo ===== */
+.portada, .seccion, .final { position: relative; isolation: isolate; overflow: hidden; }
+.portada { overflow: clip visible; }
+.portada .contenedor { position: relative; z-index: 1; }
+.portada::before { content: ""; position: absolute; z-index: -2; inset: 0 0 auto auto; width: 70%; height: 32rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M12.0 7.5l4.5 4.5 -4.5 4.5 -4.5 -4.5z' fill='%23FF7B02'/%3E%3C/svg%3E"); opacity: .35;
+  -webkit-mask-image: radial-gradient(circle at 100% 0, #000 0, transparent 70%); mask-image: radial-gradient(circle at 100% 0, #000 0, transparent 70%); }
+.portada-foto::before { content: ""; position: absolute; z-index: -1; width: 78%; aspect-ratio: 1; border-radius: 50%; background: var(--naranja); left: -22%; bottom: -16%; }
+.seccion--niebla::before { content: ""; position: absolute; z-index: -1; inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26'%3E%3Cpath d='M13.0 8.0l5 5 -5 5 -5 -5z' fill='%23DADDE2'/%3E%3C/svg%3E");
+  -webkit-mask-image: linear-gradient(115deg, #000 0, transparent 38%, transparent 62%, #000 100%); mask-image: linear-gradient(115deg, #000 0, transparent 38%, transparent 62%, #000 100%); }
+.final::after { content: ""; position: absolute; z-index: -1; inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26'%3E%3Cpath d='M13.0 8.0l5 5 -5 5 -5 -5z' fill='%23E86A00'/%3E%3C/svg%3E");
+  -webkit-mask-image: radial-gradient(ellipse at 0 100%, #000 0, transparent 65%); mask-image: radial-gradient(ellipse at 0 100%, #000 0, transparent 65%); }
+.profe-foto { position: relative; isolation: isolate; }
+.profe-foto::before { content: ""; position: absolute; z-index: -1; width: 70%; aspect-ratio: 1; border-radius: 50%; background: var(--naranja); left: -16%; bottom: -10%; }
+.profe-foto::after { content: ""; position: absolute; z-index: -2; inset: -3rem -2rem auto auto; width: 60%; height: 60%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M12.0 7.5l4.5 4.5 -4.5 4.5 -4.5 -4.5z' fill='%23FF7B02'/%3E%3C/svg%3E"); opacity: .3;
+  -webkit-mask-image: radial-gradient(circle at 100% 0, #000 0, transparent 70%); mask-image: radial-gradient(circle at 100% 0, #000 0, transparent 70%); }
+#clase::before { content: ""; position: absolute; z-index: -1; width: 46rem; aspect-ratio: 1; border-radius: 50%; right: -24rem; top: -12rem;
+  border: 3.5rem solid var(--niebla); }
+.cinta-banda { overflow: hidden; }
+
+/* ≥ 600 */
+@media (min-width: 37.5em) {
+  :root { --gutter: 1.5rem; --seccion: 5rem; }
+  .h1 { font-size: 3.5rem; }
+  .h2 { font-size: 2.75rem; }
+  .portada-acciones { grid-template-columns: auto; justify-content: start; }
+  .boton--ancho.portada-cta { width: auto; }
+  .cuota-grilla { grid-template-columns: 1fr 1fr; }
+  .complemento { grid-column: 1 / -1; }
+  .complemento-precios { grid-template-columns: 1fr 1fr; }
+}
+
+/* ≥ 1024: compu */
+@media (min-width: 64em) {
+  :root { --gutter: 2.5rem; --seccion: 7rem; }
+  .pie { padding-bottom: 2.5rem; }
+  .barra { display: none; }
+  .cabecera { position: sticky; top: 0; z-index: 10; background: rgb(255 255 255 / .96); }
+  .cabecera .contenedor { min-height: 4.75rem; gap: 2rem; }
+  .marca img { width: 2.75rem; height: 2.75rem; }
+  .marca span { font-size: 1.375rem; }
+  .nav { display: flex; gap: .25rem; }
+  .nav a { display: inline-flex; align-items: center; min-height: 2.75rem; padding-inline: .875rem; border-radius: 999px; font-weight: 500; text-decoration: none; color: var(--tinta-2); }
+  .nav a:hover { background: var(--niebla); color: var(--tinta); }
+  .cabecera .icono-boton { display: none; }
+  .cabecera .boton--naranja { display: inline-flex; min-height: 2.75rem; padding: .5rem 1.25rem; font-size: 1rem; }
+  .cabecera .boton--naranja svg { width: 1.25rem; height: 1.25rem; }
+
+  .h1 { font-size: 4.75rem; line-height: .98; }
+  .h2 { font-size: 3.25rem; }
+  .bajada { font-size: 1.375rem; }
+
+  .portada { padding-top: 3.5rem; padding-bottom: 2.5rem; }
+  .portada .contenedor { display: grid; grid-template-columns: 1.08fr .92fr; gap: 4rem; align-items: center; }
+  .portada-texto { gap: 1.25rem; }
+  .portada-foto { margin-top: 0; }
+  .portada-foto .foto-chica { display: none; }
+  .portada-foto .foto-ancha { display: block; aspect-ratio: 4 / 5; max-height: 36rem; width: 100%; }
+  .datos { margin-top: 1.5rem; max-width: 34rem; }
+  .dato { padding: 1.125rem 1.25rem; }
+  .dato dd { font-size: 2.125rem; }
+
+  .enfoque { grid-template-columns: 1.1fr .9fr; gap: 5rem; align-items: end; }
+  .contraste p { font-size: 2.25rem; }
+  .enfoque-texto { font-size: 1.1875rem; }
+
+  .clase-cabeza { grid-template-columns: 1fr 1fr; gap: 5rem; align-items: end; }
+  .clase-grilla { gap: 4.5rem; margin-top: 4.5rem; }
+  .pista { display: grid; grid-template-columns: repeat(5, 1fr) 9rem; padding: 0; }
+  .pista::before { left: .5625rem; right: 8.25rem; top: calc(.5625rem - 2px); bottom: auto; height: 0; border-left: 0; border-top: 4px solid var(--naranja); }
+  .pista li { padding: 2.25rem 1.75rem 0 0; }
+  .pista li::before { left: 0; top: 0; }
+  .pista b { font-size: 2.125rem; line-height: 1; }
+  .pista span { margin-top: .5rem; font-size: 1.0625rem; }
+  .pista li.vuelta { padding: 2.25rem 0 0; }
+  .pista li.vuelta svg { left: 0; top: -.25rem; }
+  .pista li.vuelta p { font-size: 1.125rem; line-height: 1.3; }
+  .pista .corredor { left: .125rem; top: .125rem; animation-name: correr-h; }
+  .clase-lado { grid-template-columns: 1.15fr 1fr; gap: 2rem; align-items: stretch; }
+  .clase-foto img { height: 100%; max-height: 26rem; }
+  .cupo { padding: 2.5rem; align-content: center; }
+  .cupo-num strong { font-size: 7rem; }
+  .cupo { padding: 2rem; }
+  .cupo-num strong { font-size: 5.5rem; }
+
+  .turnos-cabeza { grid-template-columns: 1fr 1fr; gap: 5rem; align-items: end; }
+  .cuota-grilla { grid-template-columns: 1fr 1fr 1fr; gap: 1.25rem; margin-top: 3.5rem; }
+  .complemento { grid-column: auto; }
+  .complemento-precios { grid-template-columns: 1fr; }
+  .tarjeta { padding: 2rem; }
+  .precio strong { font-size: 4.25rem; }
+
+  .profe { grid-template-columns: .85fr 1.15fr; gap: 5rem; align-items: start; }
+
+  .final-grilla { grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+  .final .h2 { font-size: 4rem; }
+
+
+  .portada .h1 { font-size: 5.75rem; line-height: .95; }
+  .sello { width: 9.5rem; height: 9.5rem; right: -2.5rem; top: -2.5rem; }
+  .cinta-banda .tira { font-size: 2.25rem; padding: 1rem 1.5rem; }
+  .pie .contenedor { grid-template-columns: auto 1fr auto; align-items: center; gap: 2.5rem; }
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91A9.9 9.9 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23a8.23 8.23 0 0 1 8.23 8.24c0 4.54-3.7 8.23-8.23 8.23Zm4.52-6.16c-.25-.12-1.46-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.2-.58.2-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 8h16M4 16h16"/></symbol>
+  <symbol id="i-ok" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor"/><path fill="none" stroke="#17181A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="m7.5 12.3 3 3 6-6.3"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Z"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 16 20"><path d="M0 0h9l7 10-7 10H0l7-10Z"/></symbol>
+</svg>
+
+<header class="cabecera">
+  <div class="contenedor">
+    <a class="marca" href="#inicio"><img src="img/logo-160.png" alt="" width="40" height="40"><span>Espacio Funcional 25</span></a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#enfoque">Lorem</a><a href="#clase">Ipsum</a><a href="#turnos">Dolor sit</a><a href="#profe">Amet</a>
+    </nav>
+    <a class="boton boton--naranja" href="#final"><svg aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+    <a class="icono-boton icono-boton--naranja" href="#final" aria-label="WhatsApp"><svg aria-hidden="true"><use href="#i-wa"/></svg></a>
+    <button class="icono-boton" type="button" aria-label="Menú"><svg aria-hidden="true"><use href="#i-menu"/></svg></button>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="portada">
+    <div class="contenedor">
+      <div class="portada-texto">
+        <p class="antetitulo">Lorem ipsum dolor · sit amet</p>
+        <h1 class="h1">Lorem ipsum dolor <span class="cinta">sit amet.</span></h1>
+        <p class="bajada">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam.</p>
+        <div class="portada-acciones">
+          <a class="boton boton--naranja boton--ancho portada-cta" id="cta-portada" href="#final"><svg aria-hidden="true"><use href="#i-wa"/></svg>Lorem ipsum dolor sit</a>
+          <p class="chico">Quis nostrud exercitation ullamco laboris.</p>
+        </div>
+        <dl class="datos">
+          <div class="dato"><dt>Lorem</dt><dd>$35.000<small>ipsum dolor</small></dd></div>
+          <div class="dato"><dt>Ipsum</dt><dd>3<small>dolor sit</small></dd></div>
+          <div class="dato"><dt>Dolor</dt><dd>7<small>amet elit</small></dd></div>
+        </dl>
+      </div>
+      <figure class="portada-foto">
+        <svg class="sello" viewBox="0 0 120 120" aria-hidden="true"><defs><path id="sello-c" d="M60 60 m-47 0 a47 47 0 1 1 94 0 a47 47 0 1 1 -94 0"/></defs><circle class="sello-disco" cx="60" cy="60" r="58"/><circle class="sello-borde" cx="60" cy="60" r="36"/><text class="sello-txt"><textPath href="#sello-c">LOREM IPSUM · DOLOR SIT AMET · LOREM IPSUM ·</textPath></text><text class="sello-num" x="60" y="74" text-anchor="middle">$0</text></svg>
+        <div class="marco">
+          <img class="foto-chica foto-bn" src="img/portada-43.webp" alt="" width="716" height="537">
+          <img class="foto-ancha foto-bn" src="img/portada-45.webp" alt="" width="640" height="800">
+          <div class="chevron"></div>
+        </div>
+        <figcaption class="etiqueta-foto">Lorem ipsum dolor sit</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <div class="cinta-banda" aria-hidden="true"><div class="giro"><div class="tira"><span>Lorem ipsum</span><b>✦</b><span>Dolor sit</span><b>✦</b><span>Amet elit</span><b>✦</b><span>Sed do</span><b>✦</b><span>Eiusmod</span><b>✦</b><span>Tempor</span><b>✦</b><span>Lorem ipsum</span><b>✦</b><span>Dolor sit</span><b>✦</b><span>Amet elit</span><b>✦</b><span>Sed do</span><b>✦</b><span>Eiusmod</span><b>✦</b><span>Tempor</span><b>✦</b><span>Lorem ipsum</span><b>✦</b><span>Dolor sit</span><b>✦</b><span>Amet elit</span><b>✦</b><span>Sed do</span><b>✦</b><span>Eiusmod</span><b>✦</b><span>Tempor</span><b>✦</b></div></div></div>
+
+  <section class="seccion seccion--niebla" id="enfoque">
+    <div class="contenedor enfoque">
+      <div>
+        <h2 class="h2">Lorem ipsum dolor sit amet.</h2>
+        <div class="contraste">
+          <p class="facil"><small>Lorem ipsum</small>Consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <p class="dificil"><small>Dolor sit</small><span>Ut labore et dolore magna aliqua, ut enim ad minim.</span></p>
+        </div>
+      </div>
+      <div class="enfoque-texto">
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+        <div class="firma"><img class="foto-bn" src="img/avatar.webp" alt="" width="52" height="52"><p class="chico"><b>Lorem Ipsum</b>Dolor sit amet</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion" id="clase">
+    <div class="contenedor">
+      <div class="clase-cabeza">
+        <h2 class="h2">Lorem ipsum dolor sit.</h2>
+        <p class="bajada">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.</p>
+      </div>
+      <div class="clase-grilla">
+        <div class="pista-caja">
+        <ol class="pista" role="list" aria-label="Lorem ipsum dolor">
+          <li><i class="corredor" aria-hidden="true"></i><b>Lorem</b><span>Neque porro quisquam est qui dolorem ipsum.</span></li>
+          <li><b>Ipsum</b><span>Quia dolor sit amet, consectetur adipisci velit.</span></li>
+          <li><b>Dolor</b><span>Sed quia non numquam eius modi tempora.</span></li>
+          <li><b>Sit amet</b><span>Incidunt ut labore et dolore magnam aliquam.</span></li>
+          <li><b>Elit</b><span>Quaerat voluptatem, ut enim ad minima veniam.</span></li>
+          <li class="vuelta"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M20 12a8 8 0 1 1-2.34-5.66M20 4v4.5h-4.5"/></svg><p>Lorem ipsum dolor</p></li>
+        </ol>
+        </div>
+        <div class="clase-lado">
+          <figure class="clase-foto">
+            <img class="foto-bn" src="img/clase-43.webp" alt="" width="716" height="537" loading="lazy">
+            <figcaption class="chico">Lorem ipsum dolor sit amet, consectetur adipiscing.</figcaption>
+          </figure>
+          <div class="cupo">
+            <div class="cupo-num"><strong>7</strong><span>Lorem ipsum dolor sit amet</span></div>
+            <div class="personas" aria-hidden="true"><svg viewBox="0 0 26 32"><circle cx="13" cy="7" r="6"/><path d="M1 31c0-7.2 5.4-12 12-12s12 4.8 12 12Z"/></svg><svg viewBox="0 0 26 32"><circle cx="13" cy="7" r="6"/><path d="M1 31c0-7.2 5.4-12 12-12s12 4.8 12 12Z"/></svg><svg viewBox="0 0 26 32"><circle cx="13" cy="7" r="6"/><path d="M1 31c0-7.2 5.4-12 12-12s12 4.8 12 12Z"/></svg><svg viewBox="0 0 26 32"><circle cx="13" cy="7" r="6"/><path d="M1 31c0-7.2 5.4-12 12-12s12 4.8 12 12Z"/></svg><svg viewBox="0 0 26 32"><circle cx="13" cy="7" r="6"/><path d="M1 31c0-7.2 5.4-12 12-12s12 4.8 12 12Z"/></svg><svg viewBox="0 0 26 32"><circle cx="13" cy="7" r="6"/><path d="M1 31c0-7.2 5.4-12 12-12s12 4.8 12 12Z"/></svg><svg viewBox="0 0 26 32"><circle cx="13" cy="7" r="6"/><path d="M1 31c0-7.2 5.4-12 12-12s12 4.8 12 12Z"/></svg></div>
+            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion seccion--niebla" id="turnos">
+    <div class="contenedor">
+      <div class="turnos-cabeza">
+        <h2 class="h2">Lorem ipsum dolor.</h2>
+        <p class="bajada">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
+      </div>
+      <div class="cuota-grilla">
+        <div class="tarjeta tarjeta--linea" style="background:var(--blanco)">
+          <p class="tarjeta-titulo">Lorem ipsum</p>
+          <ul class="horarios">
+            <li><span class="dias">Lunes y jueves</span><span class="hora">18 – 19 h</span></li>
+            <li><span class="dias">Lunes y jueves</span><span class="hora">19 – 20 h</span></li>
+            <li><span class="dias">Martes y viernes</span><span class="hora">7 – 8 h</span></li>
+          </ul>
+          <p class="chico horarios-nota">Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+        </div>
+        <div class="tarjeta tarjeta--tinta">
+          <p class="tarjeta-titulo">Lorem ipsum</p>
+          <p class="precio"><strong>$35.000</strong><span>/ dolor</span></p>
+          <ul class="incluye">
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg>Lorem ipsum dolor sit amet</li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg>Consectetur adipiscing elit</li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg>Sed do eiusmod tempor</li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg>Incididunt ut labore et dolore</li>
+          </ul>
+          <p class="vigencia">Lorem ipsum dolor octubre 2026</p>
+        </div>
+        <div class="tarjeta tarjeta--niebla complemento" style="background:#E8EAED">
+          <p class="tarjeta-titulo">Lorem ipsum</p>
+          <h3 class="h3">Dolor sit amet consectetur</h3>
+          <p class="chico" style="color:var(--tinta-2)">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+          <div class="complemento-precios">
+            <div><span>Lorem ipsum dolor</span><b>$10.000</b></div>
+            <div><span>Sit amet elit</span><b>$25.000</b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion" id="profe">
+    <div class="contenedor profe">
+      <figure class="profe-foto"><img class="foto-bn" src="img/profe2-45.webp" alt="" width="596" height="745" loading="lazy"></figure>
+      <div class="profe-texto">
+        <p class="antetitulo">Lorem ipsum</p>
+        <h2 class="h2">Lorem Ipsum Dolor</h2>
+        <p class="profe-rol">Consectetur adipiscing elit, sed do eiusmod</p>
+        <p style="color:var(--tinta-2)">Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <dl class="trayectoria">
+          <div><dt>2022 – 2026</dt><dd><b>Lorem ipsum dolor sit</b>Amet consectetur adipiscing</dd></div>
+          <div><dt>2020 – 2022</dt><dd><b>Sed do eiusmod tempor</b>Incididunt ut labore</dd></div>
+          <div><dt>2017 – 2026</dt><dd><b>Ut enim ad minim veniam</b>Quis nostrud exercitation</dd></div>
+          <div><dt>2023</dt><dd><b>Duis aute irure dolor</b>In reprehenderit in voluptate</dd></div>
+          <div><dt>2025</dt><dd><b>Excepteur sint occaecat</b>Cupidatat non proident</dd></div>
+        </dl>
+        <details class="cursos">
+          <summary>Lorem ipsum dolor sit amet</summary>
+          <ul><li>Lorem ipsum dolor sit amet (2024)</li><li>Consectetur adipiscing elit (2023)</li><li>Sed do eiusmod tempor (2022)</li></ul>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion final" id="final">
+    <div class="contenedor final-grilla">
+      <div class="final-texto">
+        <h2 class="h2">Lorem ipsum dolor sit amet.</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+        <div><a class="boton boton--tinta" id="cta-final" href="#final"><svg aria-hidden="true"><use href="#i-wa"/></svg>Lorem ipsum dolor sit</a></div>
+        <p class="chico">Duis aute irure dolor in reprehenderit.</p>
+      </div>
+      <div class="lugar">
+        <img class="foto-bn" src="img/donde-43.webp" alt="" width="716" height="537" loading="lazy">
+        <div class="lugar-texto">
+          <h3 class="h3">Lorem ipsum dolor</h3>
+          <address><b>Lorem 21 Nº 739</b>Ipsum dolor 8 y 9 · Sit amet</address>
+          <div class="lugar-acciones">
+            <a class="boton boton--borde" href="#final"><svg aria-hidden="true"><use href="#i-pin"/></svg>Lorem ipsum</a>
+            <a class="boton boton--borde" href="#final"><svg aria-hidden="true"><use href="#i-ig"/></svg>Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <div class="contenedor">
+    <div class="pie-marca"><img src="img/logo-96.png" alt="" width="36" height="36">Espacio Funcional 25</div>
+    <p>Lorem ipsum dolor sit amet · Consectetur 25</p>
+    <nav aria-label="Contacto"><a href="#final">WhatsApp</a><a href="#final">Instagram</a><a href="#final">Lorem ipsum</a></nav>
+  </div>
+</footer>
+
+<div class="barra" id="barra"><a class="boton boton--naranja boton--ancho" href="#final"><svg aria-hidden="true"><use href="#i-wa"/></svg>Lorem ipsum dolor sit</a></div>
+
+<script>
+(function () {
+  var pista = document.querySelector('.pista');
+  function medir() {
+    var lis = pista.querySelectorAll(':scope > li');
+    var y0 = lis[0].offsetTop;
+    var horizontal = getComputedStyle(pista).display === 'grid';
+    var x0 = lis[0].offsetLeft;
+    for (var i = 1; i < lis.length; i++) pista.style.setProperty('--p' + i, horizontal
+      ? 'calc(' + (lis[i].offsetLeft - x0) + 'px + .125rem)'
+      : 'calc(' + (lis[i].offsetTop - y0) + 'px + .3125rem)');
+  }
+  medir(); window.addEventListener('resize', medir);
+  var barra = document.getElementById('barra');
+  if (!('IntersectionObserver' in window) || !barra) return;
+  var visibles = new Set();
+  var io = new IntersectionObserver(function (es) {
+    es.forEach(function (e) { e.isIntersecting ? visibles.add(e.target) : visibles.delete(e.target); });
+    var pasada = document.getElementById('cta-portada').getBoundingClientRect().bottom < 0;
+    barra.classList.toggle('visible', pasada && visibles.size === 0);
+  });
+  io.observe(document.getElementById('cta-portada'));
+  io.observe(document.getElementById('final'));
+})();
+</script>
+</body>
+</html>
