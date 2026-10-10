@@ -1471,6 +1471,8 @@ La ronda final va en `docs/auditoria-final/`.
 
 ## 12. Decisiones tomadas sin Nicolás y preguntas
 
+> **Vieja (10/10/2026).** Esta lista es del plan v0 y no coincide con el sitio: por ejemplo, la licenciatura ahora va con año (2023) y el cargo en el CEF y los cursos sí figuran. La lista vigente de decisiones y preguntas está en `README.md`.
+
 ### Decisiones tomadas sin Nicolás (revisar)
 
 1. **Titular: "Que quieras volver."**, de su reel, con "Entrenamiento funcional en 25 de Mayo" arriba. Se probó contra cinco alternativas (sección 6.1).

@@ -41,3 +41,23 @@
 - El profe: por pedido de Pablo ("en el CV hay información importante para publicar"), además de la bio va la trayectoria completa: experiencia, formación y una lista desplegable de cursos. Quedan afuera los datos personales, los dos años de Medicina (pregunta para Nicolás) y los cursos de gestión educativa.
 - Bloque final: el título es la frase de Nicolás del reel del 28/07/2026, "No hace falta que estés en forma para arrancar."
 - Datos rápidos de la portada: cuota, turnos de la tarde (18 y 19 h, lunes y jueves) y de la mañana (7 h, martes y viernes).
+
+## Ajustes después de las auditorías (10/10/2026)
+
+Arreglos de defectos que no cambian el estilo aprobado (colores, tipografías, cinta, sello, chevrones, banda, tramas, discos, pista, fotos). El detalle de cada uno está en `docs/auditoria/correcciones.md`.
+
+- **El profe, celular y tablet:** la foto deja abajo el lugar que ocupa el disco (`margin-bottom: 12.5%`), así el disco ya no tapa "El profe". **En la compu**, la foto queda fija mientras se lee la trayectoria (`position: sticky`) y se suelta al final.
+- **Botón fijo:** aparece apenas el botón de la portada empieza a salir de la pantalla. Se esconde solo mientras el botón negro del bloque final se ve entero. Escondido, no recibe el foco.
+- **Botones de reserva:** hasta 383 px de ancho tienen 16 px de relleno a los costados (en vez de 24). Así, a 360 px "Reservá tu clase de prueba gratis" entra en una línea. En pantallas más angostas, el texto se parte en dos renglones parejos.
+- **Compu con ventana baja** (menos de 760 px de alto): la portada se compacta para que la cuota y los turnos entren en el primer pantallazo. El titular baja de 92 a 84 px y la foto, de 576 a 480 px de alto máximo.
+- **Compu, otros:**
+  - el encabezado es blanco opaco;
+  - el menú no se parte en dos renglones;
+  - las columnas de la pista son parejas y el título de cada estación se achica un poco entre 1024 y 1170 px;
+  - la tarjeta de turnos reparte los horarios en su alto;
+  - la tarjeta del 7 termina a la altura de la foto;
+  - la banda se recorta solo a los costados;
+  - el sello se acerca al centro entre 1024 y 1360 px;
+  - en El enfoque, las dos columnas arrancan arriba.
+- **Hover:** el naranja del hover pasa de `#F26F00` a `#E06500`, porque antes casi no se notaba. El texto tinta queda a 5,1:1. La cuota de la portada y "Cursos y capacitaciones" se subrayan con el hover.
+- **La bolita** se mueve con `transform` en lugar de `top` y `left`. Se ve igual, pero ya no recalcula el layout en cada cuadro.

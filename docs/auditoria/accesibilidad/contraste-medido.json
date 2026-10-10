@@ -1,0 +1,5140 @@
+{
+ "390": [
+  {
+   "texto": ".",
+   "selector": "h1#titular > span.antetitulo > span.sr-only",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 4.08,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "El profe",
+   "selector": "div.contenedor.profe > div.profe-texto > p.antetitulo",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 4.08,
+   "contraste_mediana": 4.08,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Plan complemento",
+   "selector": "div.cuota-grilla > div.tarjeta.tarjeta--gris > h3.tarjeta-titulo",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 5.11,
+   "contraste_mediana": 5.11,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Lo más fácil",
+   "selector": "div.contraste > p.facil > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 600,
+   "contraste_min": 5.16,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Profe de Espacio Funcional 25",
+   "selector": "div.enfoque-texto > div.firma > p.chico",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 5.26,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Agotarte hasta dejarte sin aire.",
+   "selector": "div > div.contraste > p.facil",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 26.0,
+   "peso": 600,
+   "contraste_min": 5.34,
+   "contraste_mediana": 5.55,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Cuota",
+   "selector": "dl.datos > div.dato > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 500,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "por mes",
+   "selector": "div.dato > dd > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 500,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Tarde",
+   "selector": "dl.datos > div.dato > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 500,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "lunes y jueves",
+   "selector": "div.dato > dd > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 500,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Mañana",
+   "selector": "dl.datos > div.dato > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 500,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "martes y viernes",
+   "selector": "div.dato > dd > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 500,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Lo que de verdad importa",
+   "selector": "div.contraste > p.importa > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 600,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Una vuelta del circuito, por ejemplo",
+   "selector": "div.clase-grilla > div > p#pista-t",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 600,
+   "contraste_min": 5.55,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "CLASE DE PRUEBA · GRATIS · 25 DE MAYO ·",
+   "selector": "svg.sello > text.sello-txt > textpath",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 128.5,
+   "peso": 700,
+   "contraste_min": 5.66,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "Te abre WhatsApp. Pagás recién desde la segunda cl",
+   "selector": "div.portada-texto > div.portada-acciones > p.chico",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 6.12,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Una clase en el cuartel: cada uno en su estación, ",
+   "selector": "div.clase-lado > figure.clase-foto > figcaption.chico",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Turnos",
+   "selector": "div.cuota-grilla > div.tarjeta.tarjeta--blanca > h3.tarjeta-titulo",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Máximo 7 personas por turno.",
+   "selector": "div.cuota-grilla > div.tarjeta.tarjeta--blanca > p.chico.horarios-nota",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "extra por mes",
+   "selector": "div > dd > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 13.0,
+   "peso": 500,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "por mes",
+   "selector": "div > dd > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 13.0,
+   "peso": 500,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Experiencia",
+   "selector": "div.contenedor.profe > div.profe-texto > h3.tarjeta-titulo.trayectoria-titulo",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2022 – hoy",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2017 – hoy",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2025 – hoy",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2021 – 2022",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2020 – 2022",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Formación",
+   "selector": "div.contenedor.profe > div.profe-texto > h3.tarjeta-titulo.trayectoria-titulo",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2023",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2020",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2017",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2025",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "¿Preferís llamar?",
+   "selector": "div.contenedor.final-grilla > div.final-texto > p.chico",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 6.38,
+   "contraste_mediana": 6.84,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2345-402547",
+   "selector": "div.final-texto > p.chico > a.enlace",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.59,
+   "contraste_mediana": 6.84,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Vení a una clase de prueba para conocer cómo traba",
+   "selector": "div.contenedor.final-grilla > div.final-texto > p",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 6.66,
+   "contraste_mediana": 6.84,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "volver.",
+   "selector": "div.portada-texto > h1#titular > span.cinta",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 56.0,
+   "peso": 700,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Reservá tu clase de prueba gratis",
+   "selector": "div.portada-texto > div.portada-acciones > a#cta-portada",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "$0",
+   "selector": "figure.portada-foto > svg.sello > text.sello-num",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 53.1,
+   "peso": 700,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "✦",
+   "selector": "div.banda-giro > div.banda-tira > b",
+   "color": [
+    255,
+    123,
+    2
+   ],
+   "px": 26.0,
+   "peso": 900,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "✦",
+   "selector": "div.banda-giro > div.banda-tira > b",
+   "color": [
+    255,
+    123,
+    2
+   ],
+   "px": 26.0,
+   "peso": 900,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "No hace falta que estés en forma para arrancar.",
+   "selector": "div.contenedor.final-grilla > div.final-texto > h2#prueba-t",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 40.0,
+   "peso": 700,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Elegís un turno y venís 2 veces por semana. Los dí",
+   "selector": "div.contenedor > div.turnos-cabeza > p.bajada",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 8.71,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Personalizado: running, fuerza o lo que necesites.",
+   "selector": "div.cuota-grilla > div.tarjeta.tarjeta--gris > p.complemento-texto",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 8.79,
+   "contraste_mediana": 8.79,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Entrenamiento funcional en 25 de Mayo",
+   "selector": "div.portada-texto > h1#titular > span.antetitulo",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 8.81,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "entrenamientos sostenibles en el tiempo",
+   "selector": "div.enfoque-texto > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 9.19,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "entre 8 y 9.",
+   "selector": "div.portada-texto > p.bajada > span.nowrap",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 9.21,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Por eso en Espacio Funcional 25 buscamos:",
+   "selector": "div.contenedor.enfoque > div.enfoque-texto > p",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 9.29,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "esfuerzo adaptado al nivel de cada persona",
+   "selector": "div.enfoque-texto > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 9.29,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Porque el factor más importante para mejorar no es",
+   "selector": "div.contenedor.enfoque > div.enfoque-texto > p",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 9.29,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": ",",
+   "selector": "div.contenedor > div.portada-texto > p.bajada",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 9.42,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Cuota mensual",
+   "selector": "div.cuota-grilla > div#cuota-mensual > h3.tarjeta-titulo",
+   "color": [
+    185,
+    189,
+    195
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 9.42,
+   "contraste_mediana": 9.42,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "por mes",
+   "selector": "div#cuota-mensual > p.precio > span",
+   "color": [
+    185,
+    189,
+    195
+   ],
+   "px": 17.0,
+   "peso": 400,
+   "contraste_min": 9.42,
+   "contraste_mediana": 9.42,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Valores de",
+   "selector": "div.cuota-grilla > div#cuota-mensual > p.chico.precio-nota",
+   "color": [
+    185,
+    189,
+    195
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 9.42,
+   "contraste_mediana": 9.42,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "octubre 2026",
+   "selector": "div#cuota-mensual > p.chico.precio-nota > span#precio-vigencia",
+   "color": [
+    185,
+    189,
+    195
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 9.42,
+   "contraste_mediana": 9.42,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": ".",
+   "selector": "div.cuota-grilla > div#cuota-mensual > p.chico.precio-nota",
+   "color": [
+    185,
+    189,
+    195
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 9.42,
+   "contraste_mediana": 9.42,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Empezás a pagar desde la segunda clase.",
+   "selector": "div.cuota-grilla > div#cuota-mensual > p.vigencia",
+   "color": [
+    185,
+    189,
+    195
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 9.42,
+   "contraste_mediana": 9.42,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "progresión gradual",
+   "selector": "div.enfoque-texto > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 9.45,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Grupos de máximo 7 personas en el Cuartel de Bombe",
+   "selector": "div.contenedor > div.portada-texto > p.bajada",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 9.49,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "técnica correcta",
+   "selector": "div.enfoque-texto > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 9.54,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": ".",
+   "selector": "div.contenedor.enfoque > div.enfoque-texto > p",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 9.54,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Una hora de fuerza, resistencia y acondicionamient",
+   "selector": "div.contenedor > div.clase-cabeza > p.bajada",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 9.54,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Con mancuernas.",
+   "selector": "ol.pista > li > span",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 400,
+   "contraste_min": 9.54,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Press con mancuernas.",
+   "selector": "ol.pista > li > span",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 400,
+   "contraste_min": 9.54,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "calle 21 Nº 739",
+   "selector": "div.portada-texto > p.bajada > span.nowrap",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 9.7,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Que quieras volver cada semana, sin lastimarte ent",
+   "selector": "div.contraste > p.importa > mark",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 26.0,
+   "peso": 600,
+   "contraste_min": 10.5,
+   "contraste_mediana": 16.0,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Remo con TRX.",
+   "selector": "ol.pista > li > span",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Con la pelota medicinal.",
+   "selector": "ol.pista > li > span",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Saltos, cubierta y maza.",
+   "selector": "ol.pista > li > span",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Como cada estación trabaja otra parte del cuerpo, ",
+   "selector": "div.clase-grilla > div > p.por-que",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Es a propósito. En grupos chicos hay supervisión c",
+   "selector": "div.clase-lado > div.cupo > p",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Si ya entrenás en el espacio",
+   "selector": "dl.complemento-precios > div > dt",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Solo el plan, sin venir a las clases",
+   "selector": "dl.complemento-precios > div > dt",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Profesor en Educación Física y licenciado en Alto ",
+   "selector": "div.contenedor.profe > div.profe-texto > p.profe-rol",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Es preparador físico de las inferiores de fútbol d",
+   "selector": "div.contenedor.profe > div.profe-texto > p.profe-bio",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Inferiores (8.ª, 7.ª, 6.ª y 5.ª) del Club Atlético",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "En escuelas de la zona, en todos los niveles y en ",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Secretario",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Proyecto propio, junto a otros colegas",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Categorías M12, M14 y M16 de Tacuara Rugby Club",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Universidad de San Pablo-Tucumán",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Asociación Natatio Argentina",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Instituto Santa Rosa",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Traditional Okinawan Goju-Ryu Karate-Do Federation",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Maestros del progreso, Corporal Kinesis (2024)",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Taller de pretemporada de fútbol, Torque (2024)",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Seminario interdisciplinario de ejercicio físico p",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Destrezas del movimiento, Emiliano Gonzalez (2023)",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Preparación física de fútbol infanto-juvenil, Yo S",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "RCP, primeros auxilios y prevención de accidentes ",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "HIIT: evaluación y programación del entrenamiento ",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Bases del entrenamiento de velocidad para deportes",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Entrenamiento intermitente y sistemas de entrenami",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Preparación física para deportes de contacto, IFE ",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Conmoción cerebral, Unión Argentina de Rugby (2019",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Educación alimentaria I, Universidad Atlántida Arg",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Calle 21 Nº 739, entre 8 y 9",
+   "selector": "div#donde > div.lugar-texto > address",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Veinticinco de Mayo (CP 6660), Buenos Aires",
+   "selector": "div#donde > div.lugar-texto > address",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Entrenamiento funcional en grupos de máximo 7 pers",
+   "selector": "footer.pie > div.contenedor > p",
+   "color": [
+    201,
+    204,
+    209
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 11.03,
+   "contraste_mediana": 11.03,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "©",
+   "selector": "footer.pie > div.contenedor > p.pie-copia",
+   "color": [
+    201,
+    204,
+    209
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 11.03,
+   "contraste_mediana": 11.03,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2026",
+   "selector": "div.contenedor > p.pie-copia > span#anio",
+   "color": [
+    201,
+    204,
+    209
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 11.03,
+   "contraste_mediana": 11.03,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Espacio Funcional 25 · Prof. Nicolás Guido Valle ·",
+   "selector": "footer.pie > div.contenedor > p.pie-copia",
+   "color": [
+    201,
+    204,
+    209
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 11.03,
+   "contraste_mediana": 11.03,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Que quieras",
+   "selector": "div.contenedor > div.portada-texto > h1#titular",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 56.0,
+   "peso": 700,
+   "contraste_min": 13.02,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Turnos y cuota",
+   "selector": "div.contenedor > div.turnos-cabeza > h2#turnos-t",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 34.0,
+   "peso": 700,
+   "contraste_min": 13.84,
+   "contraste_mediana": 16.0,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "El enfoque",
+   "selector": "div.contenedor.enfoque > div > h2#enfoque-t",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 34.0,
+   "peso": 700,
+   "contraste_min": 14.22,
+   "contraste_mediana": 16.0,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "la continuidad",
+   "selector": "div.enfoque-texto > p > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 14.58,
+   "contraste_mediana": 16.0,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Un plan para hacer por tu cuenta",
+   "selector": "div.cuota-grilla > div.tarjeta.tarjeta--gris > p.h3",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 22.0,
+   "peso": 600,
+   "contraste_min": 14.74,
+   "contraste_mediana": 14.74,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Consultar por el plan",
+   "selector": "div.cuota-grilla > div.tarjeta.tarjeta--gris > a.boton.boton--borde",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 16.0,
+   "peso": 600,
+   "contraste_min": 14.74,
+   "contraste_mediana": 14.74,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "En el Cuartel de Bomberos",
+   "selector": "div.contenedor > figure.portada-foto > figcaption.etiqueta-foto",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 15.72,
+   "contraste_mediana": 16.15,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "$35.000",
+   "selector": "div.dato > dd > a",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 25.0,
+   "peso": 700,
+   "contraste_min": 16.0,
+   "contraste_mediana": 16.0,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "18 y 19 h",
+   "selector": "dl.datos > div.dato > dd",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 25.0,
+   "peso": 700,
+   "contraste_min": 16.0,
+   "contraste_mediana": 16.0,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "7 h",
+   "selector": "dl.datos > div.dato > dd",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 25.0,
+   "peso": 700,
+   "contraste_min": 16.0,
+   "contraste_mediana": 16.0,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Nicolás Valle",
+   "selector": "div.firma > p.chico > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 16.0,
+   "contraste_mediana": 16.0,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Cómo es la clase",
+   "selector": "div.contenedor > div.clase-cabeza > h2#clase-t",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 34.0,
+   "peso": 700,
+   "contraste_min": 16.0,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Sentadillas",
+   "selector": "ol.pista > li > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 20.0,
+   "peso": 600,
+   "contraste_min": 16.0,
+   "contraste_mediana": 16.0,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Levantar.",
+   "selector": "li > span > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 16.0,
+   "contraste_mediana": 16.0,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Empujes",
+   "selector": "ol.pista > li > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 20.0,
+   "peso": 600,
+   "contraste_min": 16.0,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Espacio Funcional 25",
+   "selector": "div.contenedor > a.marca > span",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 19.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Fuerza",
+   "selector": "div.banda-giro > div.banda-tira > span",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 26.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "Resistencia",
+   "selector": "div.banda-giro > div.banda-tira > span",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 26.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "Técnica",
+   "selector": "div.banda-giro > div.banda-tira > span",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 26.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "Empujar.",
+   "selector": "li > span > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Tracciones",
+   "selector": "ol.pista > li > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 20.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Tirar.",
+   "selector": "li > span > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Core",
+   "selector": "ol.pista > li > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 20.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Estabilizar.",
+   "selector": "li > span > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Aeróbico",
+   "selector": "ol.pista > li > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 20.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Moverte.",
+   "selector": "li > span > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Y otra vuelta",
+   "selector": "ol.pista > li.vuelta > p",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "7",
+   "selector": "div.cupo > div.cupo-num > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 104.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "personas como máximo por turno",
+   "selector": "div.cupo > div.cupo-num > span",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 22.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Lunes y jueves",
+   "selector": "ul.horarios > li > span.dias",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "18 a 19 h",
+   "selector": "ul.horarios > li > span.hora",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 30.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Lunes y jueves",
+   "selector": "ul.horarios > li > span.dias",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "19 a 20 h",
+   "selector": "ul.horarios > li > span.hora",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 30.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Martes y viernes",
+   "selector": "ul.horarios > li > span.dias",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "7 a 8 h",
+   "selector": "ul.horarios > li > span.hora",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 30.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "$35.000",
+   "selector": "div#cuota-mensual > p.precio > strong#precio-cuota",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 56.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2 clases por semana",
+   "selector": "div#cuota-mensual > ul.incluye > li",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Planificación del entrenamiento",
+   "selector": "div#cuota-mensual > ul.incluye > li",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Seguimiento técnico",
+   "selector": "div#cuota-mensual > ul.incluye > li",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Adaptación de los ejercicios según tu nivel",
+   "selector": "div#cuota-mensual > ul.incluye > li",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "La clase de prueba es gratis.",
+   "selector": "div#cuota-mensual > p.vigencia > strong",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "$10.000",
+   "selector": "div > dd > span#precio-complemento",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 24.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "$25.000",
+   "selector": "div > dd > span#precio-solo-plan",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 24.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Nicolás Guido Valle",
+   "selector": "div.contenedor.profe > div.profe-texto > h2#profe-t",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 34.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Preparador físico de fútbol",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Profesor de Educación Física",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Equipo de conducción del CEF n.º 198",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Sala de fuerza y clases de funcional",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Preparador físico de rugby",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Licenciado en Alto Rendimiento Deportivo",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Diplomado «Preparador físico deportivo»",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Profesor en Educación Física",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Tercer dan de karate Goju-Ryu",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Cursos y capacitaciones",
+   "selector": "div.profe-texto > details.cursos > summary",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Reservá tu clase de prueba gratis",
+   "selector": "div.final-texto > div > a#cta-final",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Dónde estamos",
+   "selector": "div#donde > div.lugar-texto > h3.h3",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 22.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Cuartel de Bomberos",
+   "selector": "div.lugar-texto > address > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 19.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Cómo llegar",
+   "selector": "div.lugar-texto > div.lugar-acciones > a.boton.boton--borde",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 16.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Instagram",
+   "selector": "div.lugar-texto > div.lugar-acciones > a.boton.boton--borde",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 16.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Espacio Funcional 25",
+   "selector": "footer.pie > div.contenedor > p.pie-marca",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 18.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "WhatsApp 2345-402547",
+   "selector": "div.contenedor > nav > a",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Instagram",
+   "selector": "div.contenedor > nav > a",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Cómo llegar",
+   "selector": "div.contenedor > nav > a",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  }
+ ],
+ "1366": [
+  {
+   "texto": ".",
+   "selector": "h1#titular > span.antetitulo > span.sr-only",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 4.08,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Lo que de verdad importa",
+   "selector": "div.contraste > p.importa > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 600,
+   "contraste_min": 5.02,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Plan complemento",
+   "selector": "div.cuota-grilla > div.tarjeta.tarjeta--gris > h3.tarjeta-titulo",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 5.11,
+   "contraste_mediana": 5.11,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Agotarte hasta dejarte sin aire.",
+   "selector": "div > div.contraste > p.facil",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 36.0,
+   "peso": 600,
+   "contraste_min": 5.17,
+   "contraste_mediana": 5.55,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Profe de Espacio Funcional 25",
+   "selector": "div.enfoque-texto > div.firma > p.chico",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 5.2,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Cuota",
+   "selector": "dl.datos > div.dato > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 500,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "por mes",
+   "selector": "div.dato > dd > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 500,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Tarde",
+   "selector": "dl.datos > div.dato > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 500,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "lunes y jueves",
+   "selector": "div.dato > dd > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 500,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Mañana",
+   "selector": "dl.datos > div.dato > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 500,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "martes y viernes",
+   "selector": "div.dato > dd > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 500,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Lo más fácil",
+   "selector": "div.contraste > p.facil > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 600,
+   "contraste_min": 5.55,
+   "contraste_mediana": 5.55,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "¿Preferís llamar?",
+   "selector": "div.contenedor.final-grilla > div.final-texto > p.chico",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 5.88,
+   "contraste_mediana": 6.84,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2345-402547",
+   "selector": "div.final-texto > p.chico > a.enlace",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 5.94,
+   "contraste_mediana": 6.84,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Te abre WhatsApp. Pagás recién desde la segunda cl",
+   "selector": "div.portada-texto > div.portada-acciones > p.chico",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Una vuelta del circuito, por ejemplo",
+   "selector": "div.clase-grilla > div > p#pista-t",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 14.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Una clase en el cuartel: cada uno en su estación, ",
+   "selector": "div.clase-lado > figure.clase-foto > figcaption.chico",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Turnos",
+   "selector": "div.cuota-grilla > div.tarjeta.tarjeta--blanca > h3.tarjeta-titulo",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Máximo 7 personas por turno.",
+   "selector": "div.cuota-grilla > div.tarjeta.tarjeta--blanca > p.chico.horarios-nota",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "extra por mes",
+   "selector": "div > dd > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 13.0,
+   "peso": 500,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "por mes",
+   "selector": "div > dd > small",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 13.0,
+   "peso": 500,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Experiencia",
+   "selector": "div.contenedor.profe > div.profe-texto > h3.tarjeta-titulo.trayectoria-titulo",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2022 – hoy",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2017 – hoy",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2025 – hoy",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2021 – 2022",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2020 – 2022",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Formación",
+   "selector": "div.contenedor.profe > div.profe-texto > h3.tarjeta-titulo.trayectoria-titulo",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2023",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2020",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2017",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2025",
+   "selector": "dl.trayectoria > div > dt",
+   "color": [
+    92,
+    98,
+    106
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 6.16,
+   "contraste_mediana": 6.16,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Vení a una clase de prueba para conocer cómo traba",
+   "selector": "div.contenedor.final-grilla > div.final-texto > p",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 6.21,
+   "contraste_mediana": 6.84,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "No hace falta que estés en forma para arrancar.",
+   "selector": "div.contenedor.final-grilla > div.final-texto > h2#prueba-t",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 64.0,
+   "peso": 700,
+   "contraste_min": 6.42,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "CLASE DE PRUEBA · GRATIS · 25 DE MAYO ·",
+   "selector": "svg.sello > text.sello-txt > textpath",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 168.2,
+   "peso": 700,
+   "contraste_min": 6.78,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "WhatsApp",
+   "selector": "header#cabecera > div.contenedor > a.boton.boton--naranja.cabecera-wa",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 16.0,
+   "peso": 600,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Que quieras",
+   "selector": "div.contenedor > div.portada-texto > h1#titular",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 92.0,
+   "peso": 700,
+   "contraste_min": 6.84,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "volver.",
+   "selector": "div.portada-texto > h1#titular > span.cinta",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 92.0,
+   "peso": 700,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Reservá tu clase de prueba gratis",
+   "selector": "div.portada-texto > div.portada-acciones > a#cta-portada",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "$0",
+   "selector": "figure.portada-foto > svg.sello > text.sello-num",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 69.0,
+   "peso": 700,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "✦",
+   "selector": "div.banda-giro > div.banda-tira > b",
+   "color": [
+    255,
+    123,
+    2
+   ],
+   "px": 36.0,
+   "peso": 900,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "✦",
+   "selector": "div.banda-giro > div.banda-tira > b",
+   "color": [
+    255,
+    123,
+    2
+   ],
+   "px": 36.0,
+   "peso": 900,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "✦",
+   "selector": "div.banda-giro > div.banda-tira > b",
+   "color": [
+    255,
+    123,
+    2
+   ],
+   "px": 36.0,
+   "peso": 900,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "✦",
+   "selector": "div.banda-giro > div.banda-tira > b",
+   "color": [
+    255,
+    123,
+    2
+   ],
+   "px": 36.0,
+   "peso": 900,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "✦",
+   "selector": "div.banda-giro > div.banda-tira > b",
+   "color": [
+    255,
+    123,
+    2
+   ],
+   "px": 36.0,
+   "peso": 900,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "Personalizado: running, fuerza o lo que necesites.",
+   "selector": "div.cuota-grilla > div.tarjeta.tarjeta--gris > p.complemento-texto",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 8.79,
+   "contraste_mediana": 8.79,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Porque el factor más importante para mejorar no es",
+   "selector": "div.contenedor.enfoque > div.enfoque-texto > p",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 8.97,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "entrenamientos sostenibles en el tiempo",
+   "selector": "div.enfoque-texto > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 9.11,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "esfuerzo adaptado al nivel de cada persona",
+   "selector": "div.enfoque-texto > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 9.21,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Por eso en Espacio Funcional 25 buscamos:",
+   "selector": "div.contenedor.enfoque > div.enfoque-texto > p",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 9.29,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Elegís un turno y venís 2 veces por semana. Los dí",
+   "selector": "div.contenedor > div.turnos-cabeza > p.bajada",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 22.0,
+   "peso": 400,
+   "contraste_min": 9.29,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Cuota mensual",
+   "selector": "div.cuota-grilla > div#cuota-mensual > h3.tarjeta-titulo",
+   "color": [
+    185,
+    189,
+    195
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 9.42,
+   "contraste_mediana": 9.42,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "por mes",
+   "selector": "div#cuota-mensual > p.precio > span",
+   "color": [
+    185,
+    189,
+    195
+   ],
+   "px": 17.0,
+   "peso": 400,
+   "contraste_min": 9.42,
+   "contraste_mediana": 9.42,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Valores de",
+   "selector": "div.cuota-grilla > div#cuota-mensual > p.chico.precio-nota",
+   "color": [
+    185,
+    189,
+    195
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 9.42,
+   "contraste_mediana": 9.42,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "octubre 2026",
+   "selector": "div#cuota-mensual > p.chico.precio-nota > span#precio-vigencia",
+   "color": [
+    185,
+    189,
+    195
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 9.42,
+   "contraste_mediana": 9.42,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": ".",
+   "selector": "div.cuota-grilla > div#cuota-mensual > p.chico.precio-nota",
+   "color": [
+    185,
+    189,
+    195
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 9.42,
+   "contraste_mediana": 9.42,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Empezás a pagar desde la segunda clase.",
+   "selector": "div.cuota-grilla > div#cuota-mensual > p.vigencia",
+   "color": [
+    185,
+    189,
+    195
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 9.42,
+   "contraste_mediana": 9.42,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "progresión gradual",
+   "selector": "div.enfoque-texto > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 9.46,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "técnica correcta",
+   "selector": "div.enfoque-texto > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 9.46,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": ".",
+   "selector": "div.contenedor.enfoque > div.enfoque-texto > p",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 9.54,
+   "contraste_mediana": 9.54,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Una hora de fuerza, resistencia y acondicionamient",
+   "selector": "div.contenedor > div.clase-cabeza > p.bajada",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 22.0,
+   "peso": 400,
+   "contraste_min": 9.54,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Que quieras volver cada semana, sin lastimarte ent",
+   "selector": "div.contraste > p.importa > mark",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 36.0,
+   "peso": 600,
+   "contraste_min": 10.5,
+   "contraste_mediana": 16.0,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Enfoque",
+   "selector": "ul > li > a",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 500,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "La clase",
+   "selector": "ul > li > a",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 500,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Turnos y cuota",
+   "selector": "ul > li > a",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 500,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "El profe",
+   "selector": "ul > li > a",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 500,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Dónde",
+   "selector": "ul > li > a",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 500,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Entrenamiento funcional en 25 de Mayo",
+   "selector": "div.portada-texto > h1#titular > span.antetitulo",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Grupos de máximo 7 personas en el Cuartel de Bombe",
+   "selector": "div.contenedor > div.portada-texto > p.bajada",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 22.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "calle 21 Nº 739",
+   "selector": "div.portada-texto > p.bajada > span.nowrap",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 22.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": ",",
+   "selector": "div.contenedor > div.portada-texto > p.bajada",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 22.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "entre 8 y 9.",
+   "selector": "div.portada-texto > p.bajada > span.nowrap",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 22.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Con mancuernas.",
+   "selector": "ol.pista > li > span",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Press con mancuernas.",
+   "selector": "ol.pista > li > span",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Remo con TRX.",
+   "selector": "ol.pista > li > span",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Con la pelota medicinal.",
+   "selector": "ol.pista > li > span",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Saltos, cubierta y maza.",
+   "selector": "ol.pista > li > span",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 17.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Como cada estación trabaja otra parte del cuerpo, ",
+   "selector": "div.clase-grilla > div > p.por-que",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 19.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Es a propósito. En grupos chicos hay supervisión c",
+   "selector": "div.clase-lado > div.cupo > p",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Si ya entrenás en el espacio",
+   "selector": "dl.complemento-precios > div > dt",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Solo el plan, sin venir a las clases",
+   "selector": "dl.complemento-precios > div > dt",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "El profe",
+   "selector": "div.contenedor.profe > div.profe-texto > p.antetitulo",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Profesor en Educación Física y licenciado en Alto ",
+   "selector": "div.contenedor.profe > div.profe-texto > p.profe-rol",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Es preparador físico de las inferiores de fútbol d",
+   "selector": "div.contenedor.profe > div.profe-texto > p.profe-bio",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Inferiores (8.ª, 7.ª, 6.ª y 5.ª) del Club Atlético",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "En escuelas de la zona, en todos los niveles y en ",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Secretario",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Proyecto propio, junto a otros colegas",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Categorías M12, M14 y M16 de Tacuara Rugby Club",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Universidad de San Pablo-Tucumán",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Asociación Natatio Argentina",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Instituto Santa Rosa",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Traditional Okinawan Goju-Ryu Karate-Do Federation",
+   "selector": "dl.trayectoria > div > dd",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Maestros del progreso, Corporal Kinesis (2024)",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Taller de pretemporada de fútbol, Torque (2024)",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Seminario interdisciplinario de ejercicio físico p",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Destrezas del movimiento, Emiliano Gonzalez (2023)",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Preparación física de fútbol infanto-juvenil, Yo S",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "RCP, primeros auxilios y prevención de accidentes ",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "HIIT: evaluación y programación del entrenamiento ",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Bases del entrenamiento de velocidad para deportes",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Entrenamiento intermitente y sistemas de entrenami",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Preparación física para deportes de contacto, IFE ",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Conmoción cerebral, Unión Argentina de Rugby (2019",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Educación alimentaria I, Universidad Atlántida Arg",
+   "selector": "details.cursos > ul > li",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 16.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Calle 21 Nº 739, entre 8 y 9",
+   "selector": "div#donde > div.lugar-texto > address",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Veinticinco de Mayo (CP 6660), Buenos Aires",
+   "selector": "div#donde > div.lugar-texto > address",
+   "color": [
+    59,
+    63,
+    69
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 10.59,
+   "contraste_mediana": 10.59,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Entrenamiento funcional en grupos de máximo 7 pers",
+   "selector": "footer.pie > div.contenedor > p",
+   "color": [
+    201,
+    204,
+    209
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 11.03,
+   "contraste_mediana": 11.03,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "©",
+   "selector": "footer.pie > div.contenedor > p.pie-copia",
+   "color": [
+    201,
+    204,
+    209
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 11.03,
+   "contraste_mediana": 11.03,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2026",
+   "selector": "div.contenedor > p.pie-copia > span#anio",
+   "color": [
+    201,
+    204,
+    209
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 11.03,
+   "contraste_mediana": 11.03,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Espacio Funcional 25 · Prof. Nicolás Guido Valle ·",
+   "selector": "footer.pie > div.contenedor > p.pie-copia",
+   "color": [
+    201,
+    204,
+    209
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 11.03,
+   "contraste_mediana": 11.03,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "El enfoque",
+   "selector": "div.contenedor.enfoque > div > h2#enfoque-t",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 52.0,
+   "peso": 700,
+   "contraste_min": 14.11,
+   "contraste_mediana": 16.0,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Turnos y cuota",
+   "selector": "div.contenedor > div.turnos-cabeza > h2#turnos-t",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 52.0,
+   "peso": 700,
+   "contraste_min": 14.32,
+   "contraste_mediana": 16.0,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Un plan para hacer por tu cuenta",
+   "selector": "div.cuota-grilla > div.tarjeta.tarjeta--gris > p.h3",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 22.0,
+   "peso": 600,
+   "contraste_min": 14.74,
+   "contraste_mediana": 14.74,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Consultar por el plan",
+   "selector": "div.cuota-grilla > div.tarjeta.tarjeta--gris > a.boton.boton--borde",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 16.0,
+   "peso": 600,
+   "contraste_min": 14.74,
+   "contraste_mediana": 14.74,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "la continuidad",
+   "selector": "div.enfoque-texto > p > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 19.0,
+   "peso": 600,
+   "contraste_min": 15.14,
+   "contraste_mediana": 16.0,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Nicolás Valle",
+   "selector": "div.firma > p.chico > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 15.45,
+   "contraste_mediana": 16.0,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "$35.000",
+   "selector": "div.dato > dd > a",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 34.0,
+   "peso": 700,
+   "contraste_min": 16.0,
+   "contraste_mediana": 16.0,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "18 y 19 h",
+   "selector": "dl.datos > div.dato > dd",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 34.0,
+   "peso": 700,
+   "contraste_min": 16.0,
+   "contraste_mediana": 16.0,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "7 h",
+   "selector": "dl.datos > div.dato > dd",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 34.0,
+   "peso": 700,
+   "contraste_min": 16.0,
+   "contraste_mediana": 16.0,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "En el Cuartel de Bomberos",
+   "selector": "div.contenedor > figure.portada-foto > figcaption.etiqueta-foto",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 16.25,
+   "contraste_mediana": 16.29,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Espacio Funcional 25",
+   "selector": "div.contenedor > a.marca > span",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 22.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Fuerza",
+   "selector": "div.banda-giro > div.banda-tira > span",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 36.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "Resistencia",
+   "selector": "div.banda-giro > div.banda-tira > span",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 36.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "Técnica",
+   "selector": "div.banda-giro > div.banda-tira > span",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 36.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "Continuidad",
+   "selector": "div.banda-giro > div.banda-tira > span",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 36.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "Máximo 7 por turno",
+   "selector": "div.banda-giro > div.banda-tira > span",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 36.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "25 de Mayo",
+   "selector": "div.banda-giro > div.banda-tira > span",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 36.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": true
+  },
+  {
+   "texto": "Cómo es la clase",
+   "selector": "div.contenedor > div.clase-cabeza > h2#clase-t",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 52.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Sentadillas",
+   "selector": "ol.pista > li > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 34.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Levantar.",
+   "selector": "li > span > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Empujes",
+   "selector": "ol.pista > li > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 34.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Empujar.",
+   "selector": "li > span > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Tracciones",
+   "selector": "ol.pista > li > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 34.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Tirar.",
+   "selector": "li > span > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Core",
+   "selector": "ol.pista > li > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 34.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Estabilizar.",
+   "selector": "li > span > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Aeróbico",
+   "selector": "ol.pista > li > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 34.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Moverte.",
+   "selector": "li > span > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 17.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Y otra vuelta",
+   "selector": "ol.pista > li.vuelta > p",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "7",
+   "selector": "div.cupo > div.cupo-num > strong",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 112.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "personas como máximo por turno",
+   "selector": "div.cupo > div.cupo-num > span",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 22.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Lunes y jueves",
+   "selector": "ul.horarios > li > span.dias",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "18 a 19 h",
+   "selector": "ul.horarios > li > span.hora",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 30.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Lunes y jueves",
+   "selector": "ul.horarios > li > span.dias",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "19 a 20 h",
+   "selector": "ul.horarios > li > span.hora",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 30.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Martes y viernes",
+   "selector": "ul.horarios > li > span.dias",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "7 a 8 h",
+   "selector": "ul.horarios > li > span.hora",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 30.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "$35.000",
+   "selector": "div#cuota-mensual > p.precio > strong#precio-cuota",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 68.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "2 clases por semana",
+   "selector": "div#cuota-mensual > ul.incluye > li",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Planificación del entrenamiento",
+   "selector": "div#cuota-mensual > ul.incluye > li",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Seguimiento técnico",
+   "selector": "div#cuota-mensual > ul.incluye > li",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Adaptación de los ejercicios según tu nivel",
+   "selector": "div#cuota-mensual > ul.incluye > li",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 18.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "La clase de prueba es gratis.",
+   "selector": "div#cuota-mensual > p.vigencia > strong",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 15.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "$10.000",
+   "selector": "div > dd > span#precio-complemento",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 24.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "$25.000",
+   "selector": "div > dd > span#precio-solo-plan",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 24.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Nicolás Guido Valle",
+   "selector": "div.contenedor.profe > div.profe-texto > h2#profe-t",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 52.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 3.0,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Preparador físico de fútbol",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Profesor de Educación Física",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Equipo de conducción del CEF n.º 198",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Sala de fuerza y clases de funcional",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Preparador físico de rugby",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Licenciado en Alto Rendimiento Deportivo",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Diplomado «Preparador físico deportivo»",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Profesor en Educación Física",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Tercer dan de karate Goju-Ryu",
+   "selector": "div > dd > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Cursos y capacitaciones",
+   "selector": "div.profe-texto > details.cursos > summary",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Reservá tu clase de prueba gratis",
+   "selector": "div.final-texto > div > a#cta-final",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Dónde estamos",
+   "selector": "div#donde > div.lugar-texto > h3.h3",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 22.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Cuartel de Bomberos",
+   "selector": "div.lugar-texto > address > b",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 19.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Cómo llegar",
+   "selector": "div.lugar-texto > div.lugar-acciones > a.boton.boton--borde",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 16.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Instagram",
+   "selector": "div.lugar-texto > div.lugar-acciones > a.boton.boton--borde",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 16.0,
+   "peso": 600,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Espacio Funcional 25",
+   "selector": "footer.pie > div.contenedor > p.pie-marca",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 18.0,
+   "peso": 700,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "WhatsApp 2345-402547",
+   "selector": "div.contenedor > nav > a",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Instagram",
+   "selector": "div.contenedor > nav > a",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  },
+  {
+   "texto": "Cómo llegar",
+   "selector": "div.contenedor > nav > a",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "px": 15.0,
+   "peso": 400,
+   "contraste_min": 17.77,
+   "contraste_mediana": 17.77,
+   "umbral": 4.5,
+   "aria_hidden": false
+  }
+ ],
+ "390-barra": [
+  {
+   "texto": "Reservá tu clase de prueba gratis",
+   "selector": "div#barra > a.boton.boton--naranja.boton--ancho",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 18.0,
+   "peso": 600,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 4.5,
+   "aria_hidden": false
+  }
+ ],
+ "390-menu": [
+  {
+   "texto": "Reservá tu clase de prueba gratis",
+   "selector": "div.contenedor > nav#menu > a.boton.boton--naranja.boton--ancho",
+   "color": [
+    23,
+    24,
+    26
+   ],
+   "px": 20.0,
+   "peso": 600,
+   "contraste_min": 6.84,
+   "contraste_mediana": 6.84,
+   "umbral": 4.5,
+   "aria_hidden": false
+  }
+ ]
+}

@@ -6,6 +6,7 @@
   var cabecera = document.getElementById('cabecera');
   var boton = cabecera && cabecera.querySelector('.menu-boton');
   var menu = document.getElementById('menu');
+  function menuAbierto() { return !!cabecera && cabecera.classList.contains('menu-abierto'); }
 
   function abrirMenu(abrir) {
     cabecera.classList.toggle('menu-abierto', abrir);
@@ -21,13 +22,18 @@
       if (e.target.closest('a')) abrirMenu(false);
     });
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && cabecera.classList.contains('menu-abierto')) {
+      if (e.key === 'Escape' && menuAbierto()) {
         abrirMenu(false);
         boton.focus();
       }
     });
+    /* un toque fuera del panel y del botón lo cierra, también en la marca */
     document.addEventListener('click', function (e) {
-      if (cabecera.classList.contains('menu-abierto') && !cabecera.contains(e.target)) abrirMenu(false);
+      if (menuAbierto() && !menu.contains(e.target) && !boton.contains(e.target)) abrirMenu(false);
+    });
+    /* con teclado: cuando el foco sale del encabezado, se cierra */
+    cabecera.addEventListener('focusout', function (e) {
+      if (menuAbierto() && e.relatedTarget && !cabecera.contains(e.relatedTarget)) abrirMenu(false);
     });
   }
 
@@ -39,27 +45,28 @@
   function numero(t) {
     return Number(t.replace(/\D/g, '')) || 0;
   }
+  /* la cuota de la portada la copia el script chico del final de index.html, sin esperar a este archivo */
   var cuota = texto('precio-cuota');
   var vigencia = texto('precio-vigencia');
-  document.querySelectorAll('[data-copia="cuota"]').forEach(function (el) {
-    if (cuota) el.textContent = cuota;
-  });
+  var vigenciaEl = document.getElementById('precio-vigencia');
+  var desde = vigenciaEl ? vigenciaEl.getAttribute('data-desde') : '';
 
   var ld = document.getElementById('datos-negocio');
   if (ld && cuota) {
     try {
       var datos = JSON.parse(ld.textContent);
-      var oferta = function (nombre, monto, unidad) {
+      var oferta = function (nombre, monto, porMes) {
         var o = { '@type': 'Offer', name: nombre, price: monto, priceCurrency: 'ARS' };
-        if (unidad) o.priceSpecification = { '@type': 'UnitPriceSpecification', price: monto, priceCurrency: 'ARS', unitText: unidad };
+        if (desde) o.validFrom = desde;
+        if (porMes) o.priceSpecification = { '@type': 'UnitPriceSpecification', price: monto, priceCurrency: 'ARS', unitCode: 'MON', unitText: 'mes' };
         return o;
       };
       datos.priceRange = cuota + ' por mes (valores de ' + vigencia + ')';
       datos.makesOffer = [
         oferta('Clase de prueba', 0),
-        oferta('Cuota mensual: 2 clases por semana', numero(cuota), 'mes'),
-        oferta('Plan complemento para quienes entrenan en el espacio', numero(texto('precio-complemento')), 'mes'),
-        oferta('Plan personalizado, sin las clases', numero(texto('precio-solo-plan')), 'mes')
+        oferta('Cuota mensual: 2 clases por semana', numero(cuota), true),
+        oferta('Plan complemento para quienes entrenan en el espacio', numero(texto('precio-complemento')), true),
+        oferta('Plan complemento, solo el plan (sin las clases)', numero(texto('precio-solo-plan')), true)
       ];
       ld.textContent = JSON.stringify(datos);
     } catch (err) { /* si el JSON-LD no se puede leer, queda el original */ }
@@ -74,26 +81,38 @@
     var x0 = paradas[0].offsetLeft;
     var y0 = paradas[0].offsetTop;
     for (var i = 1; i < paradas.length; i++) {
-      pista.style.setProperty('--p' + i, horizontal
-        ? 'calc(' + (paradas[i].offsetLeft - x0) + 'px + .125rem)'
-        : 'calc(' + (paradas[i].offsetTop - y0) + 'px + .3125rem)');
+      pista.style.setProperty('--d' + i, (horizontal ? paradas[i].offsetLeft - x0 : paradas[i].offsetTop - y0) + 'px');
     }
   }
   medirPista();
   window.addEventListener('resize', medirPista);
+  // una vuelta cada vez que la pista entra en pantalla (dura 5 s: no hace falta botón de pausa)
+  if (pista && 'IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    new IntersectionObserver(function (entradas) {
+      entradas.forEach(function (e) {
+        if (e.isIntersecting) { medirPista(); pista.classList.add('corriendo'); }
+        else pista.classList.remove('corriendo');
+      });
+    }, { threshold: 0.6 }).observe(pista);
+  }
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(medirPista);
 
-  /* ---------- botón fijo del celular: aparece al pasar el de la portada, se esconde en el bloque final ---------- */
+  /* ---------- botón fijo del celular: aparece apenas el de la portada empieza a salir de la pantalla y se
+     esconde solo mientras el del bloque final se ve entero, así siempre hay un botón de WhatsApp a la vista ---------- */
   var barra = document.getElementById('barra');
   var ctaPortada = document.getElementById('cta-portada');
-  var final = document.getElementById('prueba');
+  var ctaFinal = document.getElementById('cta-final');
   function actualizarBarra() {
-    if (!barra || !ctaPortada || !final) return;
-    var pasada = ctaPortada.getBoundingClientRect().bottom < 0;
-    var r = final.getBoundingClientRect();
-    var enFinal = r.top < window.innerHeight && r.bottom > 0;
-    var menuAbierto = cabecera && cabecera.classList.contains('menu-abierto');
-    barra.classList.toggle('visible', pasada && !enFinal && !menuAbierto);
+    if (!barra || !ctaPortada) return;
+    /* si el menú quedó abierto y se bajó con el dedo hasta perderlo de vista, se cierra */
+    if (menuAbierto() && menu && menu.getBoundingClientRect().bottom < 0) { abrirMenu(false); return; }
+    var pasada = ctaPortada.getBoundingClientRect().top < 0;
+    var enFinal = false;
+    if (ctaFinal) {
+      var r = ctaFinal.getBoundingClientRect();
+      enFinal = r.top >= 0 && r.bottom <= window.innerHeight;
+    }
+    barra.classList.toggle('visible', pasada && !enFinal && !menuAbierto());
   }
   window.addEventListener('scroll', actualizarBarra, { passive: true });
   window.addEventListener('resize', actualizarBarra);

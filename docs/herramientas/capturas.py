@@ -56,7 +56,7 @@ def main():
         pag.goto(a.url, wait_until="networkidle")
         # cargar las imágenes diferidas antes de capturar
         pag.evaluate("document.querySelectorAll('img[loading=lazy]').forEach(i => i.loading = 'eager')")
-        pag.wait_for_load_state("networkidle")
+        pag.wait_for_function("Array.from(document.images).every(i => i.complete && i.naturalWidth > 0)", timeout=15000)
         pag.evaluate("document.fonts.ready")
         if a.scroll:
             pag.evaluate(f"window.scrollTo(0, {a.scroll})")
@@ -78,12 +78,16 @@ def main():
             guardar(a.prefijo, full_page=True)
         elif a.partes:
             alto_total = pag.evaluate("document.documentElement.scrollHeight")
+            # en el celular la barra fija tapa ~80 px abajo: cada parte se superpone con la anterior
+            paso = a.alto - 96 if movil else a.alto
             y, n = 0, 1
-            while y < alto_total:
+            while True:
                 pag.evaluate(f"window.scrollTo(0, {y})")
                 pag.wait_for_timeout(250)
                 guardar(f"{a.prefijo}-parte{n}")
-                y += a.alto
+                if y + a.alto >= alto_total:
+                    break
+                y = min(y + paso, alto_total - a.alto)
                 n += 1
         else:
             guardar(a.prefijo)

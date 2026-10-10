@@ -1,0 +1,133 @@
+{
+ "herramienta": "axe-core 4.10.2 (cdnjs), reglas wcag2a/aa, wcag21a/aa, wcag22aa, best-practice",
+ "estados": {
+  "390-inicial": {
+   "reglas_que_pasan": 47,
+   "violaciones": [
+    {
+     "id": "region",
+     "impacto": "moderate",
+     "ayuda": "All page content should be contained by landmarks",
+     "nodos": [
+      [
+       "#barra"
+      ]
+     ]
+    }
+   ],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "nodos": 79,
+     "motivos": [
+      "Element content contains only non-text characters",
+      "Element's background color could not be determined due to a pseudo element"
+     ]
+    }
+   ]
+  },
+  "390-cursos": {
+   "reglas_que_pasan": 47,
+   "violaciones": [
+    {
+     "id": "region",
+     "impacto": "moderate",
+     "ayuda": "All page content should be contained by landmarks",
+     "nodos": [
+      [
+       "#barra"
+      ]
+     ]
+    }
+   ],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "nodos": 79,
+     "motivos": [
+      "Element content contains only non-text characters",
+      "Element's background color could not be determined due to a pseudo element"
+     ]
+    }
+   ]
+  },
+  "390-menu": {
+   "reglas_que_pasan": 47,
+   "violaciones": [
+    {
+     "id": "region",
+     "impacto": "moderate",
+     "ayuda": "All page content should be contained by landmarks",
+     "nodos": [
+      [
+       "#barra"
+      ]
+     ]
+    }
+   ],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "nodos": 79,
+     "motivos": [
+      "Element content contains only non-text characters",
+      "Element's background color could not be determined due to a pseudo element"
+     ]
+    }
+   ]
+  },
+  "390-barra": {
+   "reglas_que_pasan": 47,
+   "violaciones": [
+    {
+     "id": "region",
+     "impacto": "moderate",
+     "ayuda": "All page content should be contained by landmarks",
+     "nodos": [
+      [
+       "#barra"
+      ]
+     ]
+    }
+   ],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "nodos": 79,
+     "motivos": [
+      "Element content contains only non-text characters",
+      "Element's background color could not be determined due to a pseudo element"
+     ]
+    }
+   ]
+  },
+  "1366-inicial": {
+   "reglas_que_pasan": 46,
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "nodos": 82,
+     "motivos": [
+      "Element content contains only non-text characters",
+      "Element's background color could not be determined due to a pseudo element"
+     ]
+    }
+   ]
+  },
+  "1366-cursos": {
+   "reglas_que_pasan": 46,
+   "violaciones": [],
+   "incompletas": [
+    {
+     "id": "color-contrast",
+     "nodos": 82,
+     "motivos": [
+      "Element content contains only non-text characters",
+      "Element's background color could not be determined due to a pseudo element"
+     ]
+    }
+   ]
+  }
+ }
+}

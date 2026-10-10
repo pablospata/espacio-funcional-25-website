@@ -1,0 +1,39 @@
+== 390
+ 1 A       Ir al contenido                          #contenido                   rect=[8, 8, 144, 52] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 2 A       Espacio Funcional 25                     #contenido                   rect=[16, 10, 211, 44] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 3 A       Escribir por WhatsApp                    https://wa.me/5492345402547? rect=[276, 10, 44, 44] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 4 BUTTON  Abrir el menú                                                         rect=[330, 10, 44, 44] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 5 A       Reservá tu clase de prueba gratis        https://wa.me/5492345402547? rect=[16, 343, 358, 56] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 6 A       $35.000                                  #turnos                      rect=[28, 526, 81, 30] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 7 A       Consultar por el plan                    https://wa.me/5492345402547? rect=[40, 406, 216, 48] scrollY=4250 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 8 SUMMARY Cursos y capacitaciones                                               rect=[16, 404, 358, 52] scrollY=6337 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 9 A       Reservá tu clase de prueba gratis        https://wa.me/5492345402547? rect=[16, 402, 342, 56] scrollY=6790 outline=solid 3px rgb(23, 24, 26) off 3px 
+10 A       2345-402547                              tel:+5492345402547           rect=[156, 474, 99, 44] scrollY=6790 outline=solid 3px rgb(23, 24, 26) off 3px 
+11 A       Cómo llegar                              https://www.google.com/maps/ rect=[36, 406, 155, 48] scrollY=7345 outline=solid 3px rgb(23, 24, 26) off 3px 
+12 A       Instagram                                https://www.instagram.com/es rect=[201, 406, 143, 48] scrollY=7345 outline=solid 3px rgb(23, 24, 26) off 3px 
+13 A       WhatsApp 2345-402547                     https://wa.me/5492345402547? rect=[16, 697, 155, 44] scrollY=7345 outline=solid 3px rgb(255, 255, 255) off 3px 
+14 A       Instagram                                https://www.instagram.com/es rect=[191, 697, 66, 44] scrollY=7345 outline=solid 3px rgb(255, 255, 255) off 3px 
+15 A       Cómo llegar                              https://www.google.com/maps/ rect=[277, 697, 77, 44] scrollY=7345 outline=solid 3px rgb(255, 255, 255) off 3px 
+16 A       Reservá tu clase de prueba gratis        https://wa.me/5492345402547? rect=[16, 862, 358, 52] scrollY=7345 outline=solid 3px rgb(23, 24, 26) off 3px FUERA DE PANTALLA
+17 (body)
+== 1366
+ 1 A       Ir al contenido                          #contenido                   rect=[8, 8, 144, 52] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 2 A       Espacio Funcional 25                     #contenido                   rect=[83, 16, 240, 44] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 3 A       Enfoque                                  #enfoque                     rect=[616, 16, 90, 44] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 4 A       La clase                                 #clase                       rect=[710, 16, 89, 44] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 5 A       Turnos y cuota                           #turnos                      rect=[803, 16, 137, 44] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 6 A       El profe                                 #profe                       rect=[943, 16, 85, 44] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 7 A       Dónde                                    #donde                       rect=[1032, 16, 75, 44] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 8 A       WhatsApp                                 https://wa.me/5492345402547? rect=[1140, 16, 143, 44] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+ 9 A       Reservá tu clase de prueba gratis        https://wa.me/5492345402547? rect=[83, 471, 364, 56] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+10 A       $35.000                                  #turnos                      rect=[103, 642, 110, 41] scrollY=0 outline=solid 3px rgb(23, 24, 26) off 3px 
+11 A       Consultar por el plan                    https://wa.me/5492345402547? rect=[928, 408, 216, 48] scrollY=2791 outline=solid 3px rgb(23, 24, 26) off 3px 
+12 SUMMARY Cursos y capacitaciones                                               rect=[639, 406, 644, 52] scrollY=4230 outline=solid 3px rgb(23, 24, 26) off 3px 
+13 A       Reservá tu clase de prueba gratis        https://wa.me/5492345402547? rect=[83, 404, 342, 56] scrollY=4896 outline=solid 3px rgb(23, 24, 26) off 3px 
+14 A       2345-402547                              tel:+5492345402547           rect=[223, 476, 99, 44] scrollY=4896 outline=solid 3px rgb(23, 24, 26) off 3px 
+15 A       Cómo llegar                              https://www.google.com/maps/ rect=[743, 520, 155, 48] scrollY=4896 outline=solid 3px rgb(23, 24, 26) off 3px 
+16 A       Instagram                                https://www.instagram.com/es rect=[908, 520, 143, 48] scrollY=4896 outline=solid 3px rgb(23, 24, 26) off 3px 
+17 A       WhatsApp 2345-402547                     https://wa.me/5492345402547? rect=[945, 724, 155, 44] scrollY=4916 outline=solid 3px rgb(255, 255, 255) off 3px 
+18 A       Instagram                                https://www.instagram.com/es rect=[1121, 724, 66, 44] scrollY=4916 outline=solid 3px rgb(255, 255, 255) off 3px 
+19 A       Cómo llegar                              https://www.google.com/maps/ rect=[1206, 724, 77, 44] scrollY=4916 outline=solid 3px rgb(255, 255, 255) off 3px 
+20 (body)

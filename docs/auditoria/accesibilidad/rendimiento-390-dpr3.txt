@@ -1,0 +1,92 @@
+# Playwright + Chrome, 390x844, DPR 3, is_mobile, caché desactivada (scratchpad/a11y-scripts/rendimiento.py)
+# Las líneas data:image son las tres tramas SVG del CSS (no salen a la red).
+MODO rapido
+pedidos primer pantallazo: (15, 221419) | total tras bajar: (19, 277846)
+dominios: ['', '127.0.0.1:8802']
+  inicial  t=   11 fin=32      25873 200 VeryHigh Document   / 
+  inicial  t=   25 fin=194     23433 200 High     Font       /assets/fonts/barlow-sc-700.woff2 
+  inicial  t=   26 fin=38      27271 200 VeryHigh Stylesheet /css/style.css 
+  inicial  t=   26 fin=40      16159 200 Low      Image      /assets/img/logo-120.webp 
+  inicial  t=   26 fin=39      20675 200 Medium   Image      /assets/img/portada-movil-716.webp 
+  inicial  t=   27 fin=41       4592 200 Low      Script     /js/main.js 
+  inicial  t=  189 fin=190         0 200 Low      Image      data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M12 7.5l4.5 4.5-4.5 4.5-4.5-4.5z' fill='%23FF7B02'/%3E%3C/svg%3E 
+  inicial  t=  190 fin=191         0 200 Low      Image      data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26'%3E%3Cpath d='M13 8l5 5-5 5-5-5z' fill='%23DADDE2'/%3E%3C/svg%3E 
+  inicial  t=  192 fin=192         0 200 Low      Image      data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26'%3E%3Cpath d='M13 8l5 5-5 5-5-5z' fill='%23E86A00'/%3E%3C/svg%3E 
+  inicial  t=  193 fin=195     22961 200 VeryHigh Font       /assets/fonts/barlow-600.woff2 
+  inicial  t=  193 fin=195     22385 200 VeryHigh Font       /assets/fonts/barlow-400.woff2 
+  inicial  t=  193 fin=196     22197 200 VeryHigh Font       /assets/fonts/barlow-500.woff2 
+  inicial  t=  193 fin=197     23173 200 VeryHigh Font       /assets/fonts/barlow-sc-600.woff2 
+  inicial  t=  339 fin=353      9172 200 High     Other      /favicon.ico 
+  inicial  t=  352 fin=356      3528 200 Low      Image      /assets/img/avatar-156.webp 
+  al bajar t= 6174 fin=6177    15697 200 Low      Image      /assets/img/clase-568.webp 
+  al bajar t= 7542 fin=7546    17651 200 Low      Image      /assets/img/profe-596.webp 
+  al bajar t= 9446 fin=9449    15517 200 Low      Image      /assets/img/donde-716.webp 
+  al bajar t= 9712 fin=9715     7562 200 Low      Image      /assets/img/logo-72.webp 
+métricas al cargar: {"lcp": [{"t": 492, "size": 70028, "el": "IMG.", "url": "http://127.0.0.1:8802/assets/img/portada-movil-716.webp"}], "cls": [], "nav": {"ttfb": 3, "dcl": 180, "load": 183}, "fcp": 492, "fuentes": ["Barlow 400", "Barlow 500", "Barlow 600", "Barlow Semi Condensed 600", "Barlow Semi Condensed 700"]}
+métricas al final: {"lcp": [{"t": 492, "size": 70028, "el": "IMG.", "url": "http://127.0.0.1:8802/assets/img/portada-movil-716.webp"}], "cls": [{"t": 7334, "v": 3.135944489463054e-05, "input": false, "src": ["I.corredor"]}]}
+imágenes al cargar:
+   {'src': 'logo-120.webp', 'lazy': 'auto', 'completa': True, 'top': 12, 'cssW': 40, 'natW': 40}
+   {'src': 'portada-movil-716.webp', 'lazy': 'auto', 'completa': True, 'top': 648, 'cssW': 358, 'natW': 358}
+   {'src': 'avatar-156.webp', 'lazy': 'lazy', 'completa': True, 'top': 1595, 'cssW': 52, 'natW': 52}
+   {'src': '', 'lazy': 'lazy', 'completa': False, 'top': 2577, 'cssW': 358, 'natW': 0}
+   {'src': '', 'lazy': 'lazy', 'completa': False, 'top': 4856, 'cssW': 358, 'natW': 0}
+   {'src': '', 'lazy': 'lazy', 'completa': False, 'top': 7348, 'cssW': 358, 'natW': 0}
+   {'src': '', 'lazy': 'lazy', 'completa': False, 'top': 7927, 'cssW': 36, 'natW': 0}
+imágenes al final:
+   {'src': 'logo-120.webp', 'lazy': 'auto', 'completa': True, 'top': 12, 'cssW': 40, 'natW': 40, 'dpr': 3}
+   {'src': 'portada-movil-716.webp', 'lazy': 'auto', 'completa': True, 'top': 648, 'cssW': 358, 'natW': 358, 'dpr': 3}
+   {'src': 'avatar-156.webp', 'lazy': 'lazy', 'completa': True, 'top': 1595, 'cssW': 52, 'natW': 52, 'dpr': 3}
+   {'src': 'clase-568.webp', 'lazy': 'lazy', 'completa': True, 'top': 2577, 'cssW': 358, 'natW': 358, 'dpr': 3}
+   {'src': 'profe-596.webp', 'lazy': 'lazy', 'completa': True, 'top': 4856, 'cssW': 358, 'natW': 358, 'dpr': 3}
+   {'src': 'donde-716.webp', 'lazy': 'lazy', 'completa': True, 'top': 7348, 'cssW': 358, 'natW': 358, 'dpr': 3}
+   {'src': 'logo-72.webp', 'lazy': 'lazy', 'completa': True, 'top': 7927, 'cssW': 36, 'natW': 72, 'dpr': 3}
+bolita: layout shifts en 8 s: 21 suma 0.0031 [{'t': 14329, 'v': 0.001505253354942266, 'input': False, 'src': ['I.corredor']}, {'t': 14914, 'v': 6.997562083925823e-06, 'input': False, 'src': ['I.corredor']}, {'t': 14964, 'v': 6.997562083925823e-06, 'input': False, 'src': ['I.corredor']}]
+Log: []
+console: []
+errores: []
+
+# --- mismo script con red lenta (latencia 562,5 ms, 1474,56 kbps de bajada, 675 de subida) y CPU x4
+MODO 4g
+pedidos primer pantallazo: (16, 237116) | total tras bajar: (19, 277846)
+dominios: ['', '127.0.0.1:8802']
+  inicial  t=   11 fin=720     25873 200 VeryHigh Document   / 
+  inicial  t=  624 fin=1659    23433 200 High     Font       /assets/fonts/barlow-sc-700.woff2 
+  inicial  t=  624 fin=1696    27271 200 VeryHigh Stylesheet /css/style.css 
+  inicial  t=  636 fin=1566    16159 200 Low      Image      /assets/img/logo-120.webp 
+  inicial  t=  647 fin=1661    20675 200 Low      Image      /assets/img/portada-movil-716.webp 
+  inicial  t=  718 fin=1440     4592 200 Low      Script     /js/main.js 
+  inicial  t= 2644 fin=2645        0 200 Low      Image      data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M12 7.5l4.5 4.5-4.5 4.5-4.5-4.5z' fill='%23FF7B02'/%3E%3C/svg%3E 
+  inicial  t= 2645 fin=2646        0 200 Low      Image      data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26'%3E%3Cpath d='M13 8l5 5-5 5-5-5z' fill='%23DADDE2'/%3E%3C/svg%3E 
+  inicial  t= 2646 fin=2647        0 200 Low      Image      data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26'%3E%3Cpath d='M13 8l5 5-5 5-5-5z' fill='%23E86A00'/%3E%3C/svg%3E 
+  inicial  t= 2647 fin=3020    22961 200 VeryHigh Font       /assets/fonts/barlow-600.woff2 
+  inicial  t= 2647 fin=2778    22385 200 VeryHigh Font       /assets/fonts/barlow-400.woff2 
+  inicial  t= 2648 fin=3016    22197 200 VeryHigh Font       /assets/fonts/barlow-500.woff2 
+  inicial  t= 2648 fin=3256    23173 200 VeryHigh Font       /assets/fonts/barlow-sc-600.woff2 
+  inicial  t= 2648 fin=3257     3528 200 Low      Image      /assets/img/avatar-156.webp 
+  inicial  t= 2648 fin=3315    15697 200 Low      Image      /assets/img/clase-568.webp 
+  inicial  t= 3308 fin=3927     9172 200 High     Other      /favicon.ico 
+  al bajar t=11049 fin=11706   17651 200 Low      Image      /assets/img/profe-596.webp 
+  al bajar t=16074 fin=16720   15517 200 Low      Image      /assets/img/donde-716.webp 
+  al bajar t=16792 fin=17404    7562 200 Low      Image      /assets/img/logo-72.webp 
+métricas al cargar: {"lcp": [{"t": 2776, "size": 56161, "el": "IMG.", "url": "http://127.0.0.1:8802/assets/img/portada-movil-716.webp"}], "cls": [{"t": 2963, "v": 0.08357852179848575, "input": true, "src": ["DIV.marco", "DIV.portada-acciones", "DL.datos", "::before.", "svg."]}, {"t": 3261, "v": 0.006358130152063071, "input": true, "src": ["DIV.marco", "DL.datos", "::before.", "svg.", "P.chico"]}], "nav": {"ttfb": 3, "dcl": 2679, "load": 3015}, "fcp": 2776, "fuentes": ["Barlow 400", "Barlow 500", "Barlow 600", "Barlow Semi Condensed 600", "Barlow Semi Condensed 700"]}
+métricas al final: {"lcp": [{"t": 2776, "size": 56161, "el": "IMG.", "url": "http://127.0.0.1:8802/assets/img/portada-movil-716.webp"}], "cls": [{"t": 2963, "v": 0.08357852179848575, "input": true, "src": ["DIV.marco", "DIV.portada-acciones", "DL.datos", "::before.", "svg."]}, {"t": 3261, "v": 0.006358130152063071, "input": true, "src": ["DIV.marco", "DL.datos", "::before.", "svg.", "P.chico"]}, {"t": 12074, "v": 6.997562083925823e-06, "input": false, "src": ["I.corredor"]}, {"t": 12124, "v": 6.997562083925823e-06, "input": false, "src": ["I.corredor"]}, {"t": 12157, "v": 6.997562083925823e-06, "input": false, "src": ["I.corredor"]}]}
+imágenes al cargar:
+   {'src': 'logo-120.webp', 'lazy': 'auto', 'completa': True, 'top': 12, 'cssW': 40, 'natW': 40}
+   {'src': 'portada-movil-716.webp', 'lazy': 'auto', 'completa': True, 'top': 648, 'cssW': 358, 'natW': 358}
+   {'src': 'avatar-156.webp', 'lazy': 'lazy', 'completa': True, 'top': 1595, 'cssW': 52, 'natW': 52}
+   {'src': 'clase-568.webp', 'lazy': 'lazy', 'completa': True, 'top': 2577, 'cssW': 358, 'natW': 358}
+   {'src': '', 'lazy': 'lazy', 'completa': False, 'top': 4856, 'cssW': 358, 'natW': 0}
+   {'src': '', 'lazy': 'lazy', 'completa': False, 'top': 7348, 'cssW': 358, 'natW': 0}
+   {'src': '', 'lazy': 'lazy', 'completa': False, 'top': 7927, 'cssW': 36, 'natW': 0}
+imágenes al final:
+   {'src': 'logo-120.webp', 'lazy': 'auto', 'completa': True, 'top': 12, 'cssW': 40, 'natW': 40, 'dpr': 3}
+   {'src': 'portada-movil-716.webp', 'lazy': 'auto', 'completa': True, 'top': 648, 'cssW': 358, 'natW': 358, 'dpr': 3}
+   {'src': 'avatar-156.webp', 'lazy': 'lazy', 'completa': True, 'top': 1595, 'cssW': 52, 'natW': 52, 'dpr': 3}
+   {'src': 'clase-568.webp', 'lazy': 'lazy', 'completa': True, 'top': 2577, 'cssW': 358, 'natW': 358, 'dpr': 3}
+   {'src': 'profe-596.webp', 'lazy': 'lazy', 'completa': True, 'top': 4856, 'cssW': 358, 'natW': 358, 'dpr': 3}
+   {'src': 'donde-716.webp', 'lazy': 'lazy', 'completa': True, 'top': 7348, 'cssW': 358, 'natW': 358, 'dpr': 3}
+   {'src': 'logo-72.webp', 'lazy': 'lazy', 'completa': True, 'top': 7927, 'cssW': 36, 'natW': 72, 'dpr': 3}
+bolita: layout shifts en 8 s: 19 suma 0.0016 [{'t': 27466, 'v': 6.997562083925823e-06, 'input': False, 'src': ['I.corredor']}, {'t': 27517, 'v': 6.997562083925823e-06, 'input': False, 'src': ['I.corredor']}, {'t': 27566, 'v': 6.997562083925823e-06, 'input': False, 'src': ['I.corredor']}]
+Log: []
+console: []
+errores: []

@@ -37,7 +37,7 @@
   "telephone": "+54 9 2345 40-2547",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Calle 21 Nº 739, entre 8 y 9 (Cuartel de Bomberos)",
+    "streetAddress": "Calle 21 739",
     "addressLocality": "Veinticinco de Mayo",
     "addressRegion": "Buenos Aires",
     "postalCode": "6660",
@@ -73,6 +73,12 @@
       <img src="assets/img/logo-80.webp" srcset="assets/img/logo-80.webp 2x, assets/img/logo-120.webp 3x" alt="" width="40" height="40">
       <span>Espacio Funcional 25</span>
     </a>
+    <!-- los dos botones del celular van antes del menú que abren: así el Tab y el lector entran al menú después del botón -->
+    <a class="icono-boton icono-boton--naranja" href="https://wa.me/5492345402547?text=Hola%2C%20Nicol%C3%A1s.%20Vi%20la%20p%C3%A1gina%20de%20Espacio%20Funcional%2025%20y%20quiero%20reservar%20la%20clase%20de%20prueba%20gratis.%20%C2%BFQu%C3%A9%20turno%20ten%C3%A9s%20libre%3F" aria-label="Escribir por WhatsApp"><svg aria-hidden="true" focusable="false"><use href="#i-wa"/></svg></a>
+    <button class="icono-boton menu-boton" type="button" aria-controls="menu" aria-expanded="false" aria-label="Abrir el menú">
+      <svg class="abrir" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg>
+      <svg class="cerrar" aria-hidden="true" focusable="false"><use href="#i-cerrar"/></svg>
+    </button>
     <nav class="menu" id="menu" aria-label="Secciones">
       <ul>
         <li><a href="#enfoque">Enfoque</a></li>
@@ -84,11 +90,6 @@
       <a class="boton boton--naranja boton--ancho" href="https://wa.me/5492345402547?text=Hola%2C%20Nicol%C3%A1s.%20Vi%20la%20p%C3%A1gina%20de%20Espacio%20Funcional%2025%20y%20quiero%20reservar%20la%20clase%20de%20prueba%20gratis.%20%C2%BFQu%C3%A9%20turno%20ten%C3%A9s%20libre%3F"><svg aria-hidden="true" focusable="false"><use href="#i-wa"/></svg>Reservá tu clase de prueba gratis</a>
     </nav>
     <a class="boton boton--naranja cabecera-wa" href="https://wa.me/5492345402547?text=Hola%2C%20Nicol%C3%A1s.%20Vi%20la%20p%C3%A1gina%20de%20Espacio%20Funcional%2025%20y%20quiero%20reservar%20la%20clase%20de%20prueba%20gratis.%20%C2%BFQu%C3%A9%20turno%20ten%C3%A9s%20libre%3F"><svg aria-hidden="true" focusable="false"><use href="#i-wa"/></svg>WhatsApp</a>
-    <a class="icono-boton icono-boton--naranja" href="https://wa.me/5492345402547?text=Hola%2C%20Nicol%C3%A1s.%20Vi%20la%20p%C3%A1gina%20de%20Espacio%20Funcional%2025%20y%20quiero%20reservar%20la%20clase%20de%20prueba%20gratis.%20%C2%BFQu%C3%A9%20turno%20ten%C3%A9s%20libre%3F" aria-label="Escribir por WhatsApp"><svg aria-hidden="true" focusable="false"><use href="#i-wa"/></svg></a>
-    <button class="icono-boton menu-boton" type="button" aria-controls="menu" aria-expanded="false" aria-label="Abrir el menú">
-      <svg class="abrir" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg>
-      <svg class="cerrar" aria-hidden="true" focusable="false"><use href="#i-cerrar"/></svg>
-    </button>
   </div>
 </header>
 
@@ -99,15 +100,15 @@
     <div class="contenedor">
       <div class="portada-texto">
         <h1 class="h1" id="titular"><span class="antetitulo">Entrenamiento funcional en 25 de Mayo<span class="sr-only">.</span></span> Que quieras <span class="cinta">volver.</span></h1>
-        <p class="bajada">Grupos de máximo 7 personas en el Cuartel de Bomberos: <span class="nowrap">calle 21 Nº 739</span>, <span class="nowrap">entre 8 y 9.</span></p>
+        <p class="bajada">Grupos de máximo 7&nbsp;personas, con cada ejercicio adaptado a tu nivel. En el Cuartel de Bomberos: <span class="nowrap">calle 21 Nº 739</span>, <span class="nowrap">entre 8 y 9.</span></p>
         <div class="portada-acciones">
           <a class="boton boton--naranja boton--ancho" id="cta-portada" href="https://wa.me/5492345402547?text=Hola%2C%20Nicol%C3%A1s.%20Vi%20la%20p%C3%A1gina%20de%20Espacio%20Funcional%2025%20y%20quiero%20reservar%20la%20clase%20de%20prueba%20gratis.%20%C2%BFQu%C3%A9%20turno%20ten%C3%A9s%20libre%3F"><svg aria-hidden="true" focusable="false"><use href="#i-wa"/></svg>Reservá tu clase de prueba gratis</a>
           <p class="chico">Te abre WhatsApp. Pagás recién desde la segunda clase.</p>
         </div>
         <dl class="datos">
-          <div class="dato"><dt>Cuota</dt><dd><a href="#turnos" data-copia="cuota">Ver</a><small>por mes</small></dd></div>
-          <div class="dato"><dt>Tarde</dt><dd>18 y 19 h<small>lunes y jueves</small></dd></div>
-          <div class="dato"><dt>Mañana</dt><dd>7 h<small>martes y viernes</small></dd></div>
+          <div class="dato"><dt>Cuota</dt><dd><a href="#turnos" data-copia="cuota">Ver</a><small data-copia="cuota-unidad">más abajo</small></dd></div>
+          <div class="dato"><dt>Tarde</dt><dd>18 y 19&nbsp;h<small>lunes y jueves</small></dd></div>
+          <div class="dato"><dt>Mañana</dt><dd>7&nbsp;h<small>martes y viernes</small></dd></div>
         </dl>
       </div>
       <figure class="portada-foto">
@@ -121,7 +122,7 @@
         <div class="marco">
           <picture>
             <source media="(min-width: 64em)" srcset="assets/img/portada-compu-480.webp 480w, assets/img/portada-compu-640.webp 640w" sizes="(min-width: 80em) 33rem, 40vw" width="640" height="800">
-            <img src="assets/img/portada-movil-716.webp" srcset="assets/img/portada-movil-400.webp 400w, assets/img/portada-movil-716.webp 716w" sizes="(min-width: 37.5em) 34rem, calc(100vw - 2rem)" width="716" height="537" alt="Nicolás Valle le muestra un ejercicio a una alumna en el Cuartel de Bomberos, con las autobombas estacionadas atrás.">
+            <img src="assets/img/portada-movil-716.webp" srcset="assets/img/portada-movil-400.webp 400w, assets/img/portada-movil-716.webp 716w" sizes="(min-width: 37.5em) calc(100vw - 3rem), calc(100vw - 2rem)" width="716" height="537" fetchpriority="high" alt="Nicolás Valle le muestra un ejercicio a una alumna en el Cuartel de Bomberos, con las autobombas estacionadas atrás.">
           </picture>
           <div class="chevron"></div>
         </div>
@@ -132,8 +133,8 @@
 
   <div class="banda" aria-hidden="true">
     <div class="banda-giro"><div class="banda-tira">
-      <span>Fuerza</span><b>✦</b><span>Resistencia</span><b>✦</b><span>Técnica</span><b>✦</b><span>Continuidad</span><b>✦</b><span>Máximo 7 por turno</span><b>✦</b><span>25 de Mayo</span><b>✦</b>
-      <span>Fuerza</span><b>✦</b><span>Resistencia</span><b>✦</b><span>Técnica</span><b>✦</b><span>Continuidad</span><b>✦</b><span>Máximo 7 por turno</span><b>✦</b><span>25 de Mayo</span><b>✦</b>
+      <span>Fuerza</span><b>✦</b><span>A tu nivel</span><b>✦</b><span>Técnica</span><b>✦</b><span>Continuidad</span><b>✦</b><span>Máximo 7 por turno</span><b>✦</b><span>25 de Mayo</span><b>✦</b>
+      <span>Fuerza</span><b>✦</b><span>A tu nivel</span><b>✦</b><span>Técnica</span><b>✦</b><span>Continuidad</span><b>✦</b><span>Máximo 7 por turno</span><b>✦</b><span>25 de Mayo</span><b>✦</b>
     </div></div>
   </div>
 
@@ -143,17 +144,15 @@
       <div>
         <h2 class="h2" id="enfoque-t">El enfoque</h2>
         <div class="contraste">
-          <p class="facil"><small>Lo más fácil</small>Agotarte hasta dejarte sin aire.</p>
-          <p class="importa"><small>Lo que de verdad importa</small><mark>Que quieras volver cada semana, sin lastimarte entrenando.</mark></p>
+          <p class="facil"><small>Lo más fácil para un entrenador</small>Agotarte hasta dejarte sin aire.</p>
+          <p class="importa"><small>Lo difícil, y lo que de verdad importa</small><mark>Que quieras volver cada semana, sin lastimarte entrenando.</mark></p>
         </div>
       </div>
       <div class="enfoque-texto">
-        <p>Por eso en Espacio Funcional 25 buscamos:</p>
-        <ul>
-          <li>esfuerzo adaptado al nivel de cada persona</li>
-          <li>progresión gradual</li>
-          <li>técnica correcta</li>
-          <li>entrenamientos sostenibles en el tiempo</li>
+        <ul class="promesas" role="list">
+          <li><svg aria-hidden="true" focusable="false"><use href="#i-ok"/></svg><p><b>Sabe lo que hace.</b>Es licenciado en Alto Rendimiento Deportivo y preparador físico.</p></li>
+          <li><svg aria-hidden="true" focusable="false"><use href="#i-ok"/></svg><p><b>Te adapta.</b>Cada ejercicio a tu nivel, tengas experiencia o no, con una progresión gradual.</p></li>
+          <li><svg aria-hidden="true" focusable="false"><use href="#i-ok"/></svg><p><b>Te cuida.</b>No entrenás solo: te mira, te corrige la técnica y se fija que estés bien. La salud va primero.</p></li>
         </ul>
         <p>Porque el factor más importante para mejorar no es una sesión intensa, sino <strong>la continuidad</strong>.</p>
         <div class="firma">
@@ -169,7 +168,7 @@
     <div class="contenedor">
       <div class="clase-cabeza">
         <h2 class="h2" id="clase-t">Cómo es la clase</h2>
-        <p class="bajada">Una hora de fuerza, resistencia y acondicionamiento físico, en estaciones de trabajo. Cada estación cambia el movimiento.</p>
+        <p class="bajada">Una hora de fuerza, resistencia y acondicionamiento físico, en estaciones de trabajo que alternan patrones de movimiento.</p>
       </div>
       <div class="clase-grilla">
         <div>
@@ -182,11 +181,11 @@
             <li><b>Aeróbico</b><span><strong>Moverte.</strong> Saltos, cubierta y maza.</span></li>
             <li class="vuelta"><svg aria-hidden="true" focusable="false"><use href="#i-vuelta"/></svg><p>Y otra vuelta</p></li>
           </ol>
-          <p class="por-que">Como cada estación trabaja otra parte del cuerpo, mantenés un buen nivel de esfuerzo sin generar fatiga excesiva, y sostenés la clase entera sin terminar destruido.</p>
+          <p class="por-que">Alternar patrones de movimiento permite mantener un buen nivel de esfuerzo sin generar fatiga excesiva, y que puedas sostener el entrenamiento durante toda la clase sin terminar destruido.</p>
         </div>
         <div class="clase-lado">
           <figure class="clase-foto">
-            <img src="assets/img/clase-568.webp" srcset="assets/img/clase-400.webp 400w, assets/img/clase-568.webp 568w" sizes="(min-width: 64em) 38rem, (min-width: 37.5em) 34rem, calc(100vw - 2rem)" width="568" height="426" alt="Una clase en el cuartel: un alumno hace remo con TRX, una alumna apoya las manos en una pelota medicinal y otra hace una estocada con mancuerna." loading="lazy" decoding="async">
+            <img src="assets/img/clase-568.webp" srcset="assets/img/clase-400.webp 400w, assets/img/clase-568.webp 568w" sizes="(min-width: 80em) 39rem, (min-width: 64em) calc(53.5vw - 3.75rem), (min-width: 37.5em) calc(100vw - 3rem), calc(100vw - 2rem)" width="568" height="426" alt="Una clase en el cuartel: un alumno hace remo con TRX contra la pared y una alumna, en cuatro apoyos, apoya una mano sobre una pelota medicinal. Atrás se ve una camioneta de Bomberos." loading="lazy" decoding="async">
             <figcaption class="chico">Una clase en el cuartel: cada uno en su estación, al mismo tiempo.</figcaption>
           </figure>
           <div class="cupo">
@@ -194,7 +193,7 @@
             <div class="personas" aria-hidden="true">
               <svg focusable="false"><use href="#i-persona"/></svg><svg focusable="false"><use href="#i-persona"/></svg><svg focusable="false"><use href="#i-persona"/></svg><svg focusable="false"><use href="#i-persona"/></svg><svg focusable="false"><use href="#i-persona"/></svg><svg focusable="false"><use href="#i-persona"/></svg><svg focusable="false"><use href="#i-persona"/></svg>
             </div>
-            <p>Es a propósito. En grupos chicos hay supervisión constante, corrección técnica y adaptación de los ejercicios según tu nivel.</p>
+            <p>Es a propósito: así el profe te ve a vos. Te corrige la técnica, adapta cada ejercicio a tu nivel y se fija que estés bien.</p>
           </div>
         </div>
       </div>
@@ -206,7 +205,7 @@
     <div class="contenedor">
       <div class="turnos-cabeza">
         <h2 class="h2" id="turnos-t">Turnos y cuota</h2>
-        <p class="bajada">Elegís un turno y venís 2 veces por semana. Los días que no venís podés combinar con algo más suave, como caminar o andar en bicicleta.</p>
+        <p class="bajada">Elegís un turno y venís 2 veces por semana. Los días que no venís, podés combinar el entrenamiento con algo más suave, como caminar o andar en bicicleta.</p>
       </div>
       <div class="cuota-grilla">
         <div class="tarjeta tarjeta--blanca">
@@ -221,7 +220,7 @@
         <div class="tarjeta tarjeta--tinta" id="cuota-mensual">
           <h3 class="tarjeta-titulo">Cuota mensual</h3>
           <p class="precio"><strong id="precio-cuota">$35.000</strong><span>por mes</span></p>
-          <p class="chico precio-nota">Valores de <span id="precio-vigencia">octubre 2026</span>.</p>
+          <p class="chico precio-nota">Valores de <span id="precio-vigencia" data-desde="2026-10-01">octubre de 2026</span>.</p>
           <ul class="incluye">
             <li><svg aria-hidden="true" focusable="false"><use href="#i-ok"/></svg>2 clases por semana</li>
             <li><svg aria-hidden="true" focusable="false"><use href="#i-ok"/></svg>Planificación del entrenamiento</li>
@@ -233,7 +232,7 @@
         <div class="tarjeta tarjeta--gris">
           <h3 class="tarjeta-titulo">Plan complemento</h3>
           <p class="h3">Un plan para hacer por tu cuenta</p>
-          <p class="complemento-texto">Personalizado: running, fuerza o lo que necesites.</p>
+          <p class="complemento-texto">Personalizado: running, fuerza o <span class="nowrap">lo que necesites</span>.</p>
           <dl class="complemento-precios">
             <div><dt>Si ya entrenás en el espacio</dt><dd><span id="precio-complemento">$10.000</span><small>extra por mes</small></dd></div>
             <div><dt>Solo el plan, sin venir a las clases</dt><dd><span id="precio-solo-plan">$25.000</span><small>por mes</small></dd></div>
@@ -248,43 +247,44 @@
   <section class="seccion" id="profe" aria-labelledby="profe-t">
     <div class="contenedor profe">
       <figure class="profe-foto">
-        <img src="assets/img/profe-596.webp" srcset="assets/img/profe-400.webp 400w, assets/img/profe-596.webp 596w" sizes="(min-width: 64em) 28rem, (min-width: 37.5em) 34rem, calc(100vw - 2rem)" width="596" height="745" alt="Nicolás Valle con el buzo de Espacio Funcional 25 y una pelota de ejercicio naranja, en el cuartel." loading="lazy" decoding="async">
+        <img src="assets/img/profe-596.webp" srcset="assets/img/profe-400.webp 400w, assets/img/profe-596.webp 596w" sizes="(min-width: 80em) 30rem, (min-width: 64em) calc(42.5vw - 4.25rem), (min-width: 37.5em) calc(100vw - 3rem), calc(100vw - 2rem)" width="596" height="745" alt="Nicolás Valle con el buzo de Espacio Funcional 25 y una pelota de ejercicio naranja, en el cuartel." loading="lazy" decoding="async">
       </figure>
       <div class="profe-texto">
         <p class="antetitulo">El profe</p>
         <h2 class="h2" id="profe-t">Nicolás Guido Valle</h2>
         <p class="profe-rol">Profesor en Educación Física y licenciado en Alto Rendimiento Deportivo</p>
-        <p class="profe-bio">Es preparador físico de las inferiores de fútbol de Nuevo Globito y da clases de Educación Física en escuelas de la zona desde 2017. En el espacio planifica los entrenamientos y corrige la técnica de cada uno.</p>
+        <p class="profe-bio">Da clases de Educación Física en escuelas de la zona desde 2017 y, desde 2022, es preparador físico de las inferiores de fútbol de Nuevo Globito. En el espacio planifica los entrenamientos, adapta cada ejercicio a tu nivel y corrige la técnica de cada uno.</p>
 
         <h3 class="tarjeta-titulo trayectoria-titulo">Experiencia</h3>
         <dl class="trayectoria">
+          <div><dt>2025 – hoy</dt><dd><b>Equipo de conducción del <span class="nowrap">CEF Nº&nbsp;198</span></b>Secretario</dd></div>
           <div><dt>2022 – hoy</dt><dd><b>Preparador físico de fútbol</b>Inferiores (8.ª, 7.ª, 6.ª y 5.ª) del Club Atlético Nuevo Globito</dd></div>
-          <div><dt>2017 – hoy</dt><dd><b>Profesor de Educación Física</b>En escuelas de la zona, en todos los niveles y en el CEF</dd></div>
-          <div><dt>2025 – hoy</dt><dd><b>Equipo de conducción del CEF n.º 198</b>Secretario</dd></div>
+          <div><dt>2017 – hoy</dt><dd><b>Profesor de Educación Física</b>En escuelas de la zona, en todos los niveles de la educación obligatoria, y en el CEF</dd></div>
           <div><dt>2021 – 2022</dt><dd><b>Sala de fuerza y clases de funcional</b>Proyecto propio, junto a otros colegas</dd></div>
           <div><dt>2020 – 2022</dt><dd><b>Preparador físico de rugby</b>Categorías M12, M14 y M16 de Tacuara Rugby Club</dd></div>
         </dl>
 
         <h3 class="tarjeta-titulo trayectoria-titulo">Formación</h3>
         <dl class="trayectoria">
-          <div><dt>2023</dt><dd><b>Licenciado en Alto Rendimiento Deportivo</b>Universidad de San Pablo-Tucumán</dd></div>
+          <div><dt>2025</dt><dd><b>Tercer dan de karate <span class="nowrap">Goju-Ryu</span></b>Traditional Okinawan <span class="nowrap">Goju-Ryu</span> <span class="nowrap">Karate-Do</span> Federation</dd></div>
+          <div><dt>2023</dt><dd><b>Licenciado en Alto Rendimiento Deportivo</b>Universidad de <span class="nowrap">San Pablo-Tucumán</span></dd></div>
+          <div><dt>2023</dt><dd><b>Seminario de ejercicio físico para personas con obesidad</b>Interdisciplinario, de Ethos</dd></div>
+          <div><dt>2022</dt><dd><b>RCP y primeros auxilios</b>Curso de RCP, primeros auxilios y prevención de accidentes</dd></div>
           <div><dt>2020</dt><dd><b>Diplomado «Preparador físico deportivo»</b>Asociación Natatio Argentina</dd></div>
           <div><dt>2017</dt><dd><b>Profesor en Educación Física</b>Instituto Santa Rosa</dd></div>
-          <div><dt>2025</dt><dd><b>Tercer dan de karate Goju-Ryu</b>Traditional Okinawan Goju-Ryu Karate-Do Federation</dd></div>
         </dl>
 
         <details class="cursos">
-          <summary>Cursos y capacitaciones</summary>
+          <summary>Cursos y capacitaciones<span class="signo" aria-hidden="true"></span></summary>
           <ul>
             <li>Maestros del progreso, Corporal Kinesis (2024)</li>
             <li>Taller de pretemporada de fútbol, Torque (2024)</li>
-            <li>Seminario interdisciplinario de ejercicio físico para personas con obesidad, Ethos (2023)</li>
             <li>Destrezas del movimiento, Emiliano Gonzalez (2023)</li>
-            <li>Preparación física de fútbol infanto-juvenil, Yo Sé (2023)</li>
-            <li>RCP, primeros auxilios y prevención de accidentes (2022)</li>
+            <li>Preparación física de fútbol infantojuvenil, Yo&nbsp;Sé (2023)</li>
             <li>HIIT: evaluación y programación del entrenamiento en deportes de equipo, Pablo Añon (2022)</li>
             <li>Bases del entrenamiento de velocidad para deportes de equipo, Pablo Añon (2022)</li>
-            <li>Entrenamiento intermitente y sistemas de entrenamiento, Cantidad de Calidad (2020)</li>
+            <li>Entrenamiento intermitente, Cantidad de Calidad (2020)</li>
+            <li>Sistemas de entrenamiento, Cantidad de Calidad (2020)</li>
             <li>Preparación física para deportes de contacto, IFE (2020)</li>
             <li>Conmoción cerebral, Unión Argentina de Rugby (2019)</li>
             <li>Educación alimentaria I, Universidad Atlántida Argentina (2019)</li>
@@ -304,10 +304,10 @@
         <p class="chico">¿Preferís llamar? <a class="enlace" href="tel:+5492345402547">2345-402547</a></p>
       </div>
       <div class="lugar" id="donde">
-        <img src="assets/img/donde-716.webp" srcset="assets/img/donde-400.webp 400w, assets/img/donde-716.webp 716w" sizes="(min-width: 64em) 35rem, (min-width: 37.5em) 34rem, calc(100vw - 2rem)" width="716" height="448" alt="Una alumna hace remo con TRX en el salón del cuartel, debajo del letrero de Bomberos Voluntarios." loading="lazy" decoding="async">
+        <img src="assets/img/donde-716.webp" srcset="assets/img/donde-400.webp 400w, assets/img/donde-716.webp 716w" sizes="(min-width: 80em) 35rem, (min-width: 64em) calc(50vw - 5rem), (min-width: 37.5em) calc(100vw - 3rem), calc(100vw - 2rem)" width="716" height="448" alt="Una alumna hace remo con TRX en el salón del cuartel, debajo del letrero de Bomberos Voluntarios." loading="lazy" decoding="async">
         <div class="lugar-texto">
           <h3 class="h3">Dónde estamos</h3>
-          <address><b>Cuartel de Bomberos</b>Calle 21 Nº 739, entre 8 y 9<br>Veinticinco de Mayo (CP 6660), Buenos Aires</address>
+          <address><b>Cuartel de Bomberos</b>Calle 21 Nº 739, entre 8 y 9<br>Veinticinco de Mayo (CP&nbsp;6660), Buenos&nbsp;Aires</address>
           <div class="lugar-acciones">
             <a class="boton boton--borde" href="https://www.google.com/maps/dir/?api=1&amp;destination=-35.4387213%2C-60.1711055" rel="noopener"><svg aria-hidden="true" focusable="false"><use href="#i-pin"/></svg>Cómo llegar</a>
             <a class="boton boton--borde" href="https://www.instagram.com/espaciofuncional25/" rel="noopener"><svg aria-hidden="true" focusable="false"><use href="#i-ig"/></svg>Instagram</a>
@@ -321,20 +321,29 @@
 <footer class="pie">
   <div class="contenedor">
     <p class="pie-marca"><img src="assets/img/logo-72.webp" alt="" width="36" height="36" loading="lazy" decoding="async">Espacio Funcional 25</p>
-    <p>Entrenamiento funcional en grupos de máximo 7 personas, en 25 de Mayo.</p>
+    <p>Entrenamiento funcional en grupos de máximo 7&nbsp;personas, en <span class="nowrap">25 de Mayo</span>.</p>
     <nav aria-label="Contacto">
       <a href="https://wa.me/5492345402547?text=Hola%2C%20Nicol%C3%A1s.%20Vi%20la%20p%C3%A1gina%20de%20Espacio%20Funcional%2025%20y%20quiero%20reservar%20la%20clase%20de%20prueba%20gratis.%20%C2%BFQu%C3%A9%20turno%20ten%C3%A9s%20libre%3F">WhatsApp 2345-402547</a>
-      <a href="https://www.instagram.com/espaciofuncional25/" rel="noopener">Instagram</a>
+      <a href="https://www.instagram.com/espaciofuncional25/" rel="noopener">Instagram @espaciofuncional25</a>
       <a href="https://www.google.com/maps/dir/?api=1&amp;destination=-35.4387213%2C-60.1711055" rel="noopener">Cómo llegar</a>
     </nav>
-    <p class="pie-copia">© <span id="anio">2026</span> Espacio Funcional 25 · Prof. Nicolás Guido Valle · Cuartel de Bomberos, calle 21 Nº 739, Veinticinco de Mayo</p>
+    <p class="pie-copia">© <span id="anio">2026</span> Espacio Funcional 25&nbsp;· <span class="nowrap">Prof. Nicolás Guido Valle</span>&nbsp;· Cuartel de Bomberos, <span class="nowrap">calle 21 Nº 739</span>, <span class="nowrap">Veinticinco de Mayo</span></p>
   </div>
 </footer>
 
-<div class="barra" id="barra">
+<aside class="barra" id="barra" aria-label="Reservar la clase de prueba">
   <a class="boton boton--naranja boton--ancho" href="https://wa.me/5492345402547?text=Hola%2C%20Nicol%C3%A1s.%20Vi%20la%20p%C3%A1gina%20de%20Espacio%20Funcional%2025%20y%20quiero%20reservar%20la%20clase%20de%20prueba%20gratis.%20%C2%BFQu%C3%A9%20turno%20ten%C3%A9s%20libre%3F"><svg aria-hidden="true" focusable="false"><use href="#i-wa"/></svg>Reservá tu clase de prueba gratis</a>
-</div>
+</aside>
 
+<script>
+/* cuota de la portada: se copia de #precio-cuota (Turnos y cuota, el único lugar del precio) sin esperar a main.js */
+(function () {
+  var c = document.getElementById('precio-cuota');
+  if (!c) return;
+  document.querySelectorAll('[data-copia="cuota"]').forEach(function (el) { el.textContent = c.textContent.trim(); });
+  document.querySelectorAll('[data-copia="cuota-unidad"]').forEach(function (el) { el.textContent = 'por mes'; });
+})();
+</script>
 <script src="js/main.js" defer></script>
 </body>
 </html>

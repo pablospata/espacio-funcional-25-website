@@ -1,0 +1,79 @@
+{
+ "lighthouse": "13.5.0",
+ "fecha": "2026-10-10T03:06:10.612Z",
+ "url": "http://127.0.0.1:8802/",
+ "emulacion": {
+  "mobile": true,
+  "width": 412,
+  "height": 823,
+  "deviceScaleFactor": 1.75,
+  "disabled": false
+ },
+ "red_cpu": {
+  "rttMs": 150,
+  "throughputKbps": 1638.4,
+  "requestLatencyMs": 562.5,
+  "downloadThroughputKbps": 1474.5600000000002,
+  "uploadThroughputKbps": 675,
+  "cpuSlowdownMultiplier": 4
+ },
+ "metodo": "simulate",
+ "puntajes": {
+  "performance": 98,
+  "accessibility": 100,
+  "best-practices": 100,
+  "seo": 100,
+  "agentic-browsing": 100
+ },
+ "metricas": {
+  "first-contentful-paint": "1.7 s",
+  "largest-contentful-paint": "2.2 s",
+  "total-blocking-time": "0 ms",
+  "cumulative-layout-shift": "0.024",
+  "speed-index": "1.7 s",
+  "interactive": "2.2 s",
+  "total-byte-weight": "Total size was 223 KiB"
+ },
+ "avisos": {
+  "lcp-discovery-insight": {
+   "titulo": "LCP request discovery",
+   "valor": null,
+   "puntaje": 0
+  },
+  "render-blocking-insight": {
+   "titulo": "Render-blocking requests",
+   "valor": "Est savings of 590 ms",
+   "puntaje": 0
+  },
+  "image-delivery-insight": {
+   "titulo": "Improve image delivery",
+   "valor": "Est savings of 22 KiB",
+   "puntaje": 0.5
+  },
+  "document-latency-insight": {
+   "titulo": "Document request latency",
+   "valor": "Est savings of 17 KiB",
+   "puntaje": 0.5
+  },
+  "cache-insight": {
+   "titulo": "Use efficient cache lifetimes",
+   "valor": "Est savings of 189 KiB",
+   "puntaje": 0
+  },
+  "unminified-css": {
+   "titulo": "Minify CSS",
+   "valor": "Est savings of 4 KiB",
+   "puntaje": 0.5
+  },
+  "non-composited-animations": {
+   "titulo": "Avoid non-composited animations",
+   "valor": "1 animated element found",
+   "puntaje": 1
+  },
+  "layout-shifts": {
+   "titulo": "Avoid large layout shifts",
+   "valor": "2 layout shifts found",
+   "puntaje": 1
+  }
+ }
+}
