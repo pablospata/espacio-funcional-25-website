@@ -1,6 +1,6 @@
 # Espacio Funcional 25 · sitio
 
-13/10/2026 · Nicolás revisó el texto y dio el OK; el cupo pasó de 7 a 9 por turno; dominio comprado: `espaciofuncional25.com` · sigue: publicar en Hostinger
+13/10/2026 · Nicolás revisó el texto y dio el OK; el cupo pasó de 7 a 9 por turno; dominio comprado: `espaciofuncional25.com` · **publicado el 14/10/2026 en https://espaciofuncional25.com** (Hostinger)
 
 Sitio de una sola página de Espacio Funcional 25, el entrenamiento funcional del Prof. Nicolás Guido Valle en el Cuartel de Bomberos de 25 de Mayo. Su trabajo: que alguien de 25 de Mayo que llega desde Instagram o WhatsApp entienda en segundos qué es, dónde queda, cuánto sale y en qué horarios hay clase, y que reserve la clase de prueba gratis por WhatsApp.
 
@@ -17,6 +17,12 @@ Sitio de una sola página de Espacio Funcional 25, el entrenamiento funcional de
   - `herramientas/`: `capturas.py`, `contraste.py` e `imagenes.py`.
   - `auditoria/`: las cinco auditorías del 10/10/2026 (celular, compu, copy, datos, accesibilidad y rendimiento) y `correcciones.md`, con lo que se hizo con cada hallazgo.
 - `.github/workflows/pages.yml`: vista previa en GitHub Pages, sin `docs/` ni este README. El sitio definitivo va en Hostinger.
+
+## Cómo se publica
+
+El sitio vive en el plan Cloud Startup del Hostinger de Pablo, como sitio PHP/HTML de `espaciofuncional25.com` (dominio y DNS en el mismo Hostinger). hPanel → el sitio → Avanzado → Git está conectado con este repo (rama `main`, a `public_html`) y tiene la **implementación automática** activada: cada push a `main` se publica solo, igual que la vista previa. Si algo no se actualiza, ahí está el botón "Redeploy".
+
+Se publica el repo entero, incluidos `docs/` y este README: el `.htaccess` los devuelve como 404 (verificado el 14/10/2026: `docs/`, `README.md` y `.github/` dan 404, `.git/` da 403, http y www redirigen con 301 a https sin www).
 
 ## Cómo verlo
 
@@ -85,6 +91,5 @@ Tres cosas medidas en las auditorías que tocan algo que Pablo aprobó o pidió.
 
 ## Qué falta
 
-- Publicar en Hostinger, desde `main`.
 - Probar en un celular que `wa.me/5492345402547` abra el chat bien.
 - Dar de alta el Perfil de Empresa en Google Maps y poner el link del sitio en la bio de Instagram.
