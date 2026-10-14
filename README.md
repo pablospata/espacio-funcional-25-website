@@ -1,6 +1,6 @@
 # Espacio Funcional 25 · sitio
 
-10/10/2026 02:10 · v2 publicada en la vista previa de GitHub Pages, con el titular «Entrená acompañado.» · sigue: revisión del texto con Nicolás, dominio y publicación en Hostinger
+13/10/2026 · Nicolás revisó el texto y dio el OK; el cupo pasó de 7 a 9 por turno; dominio comprado: `espaciofuncional25.com` · sigue: publicar en Hostinger
 
 Sitio de una sola página de Espacio Funcional 25, el entrenamiento funcional del Prof. Nicolás Guido Valle en el Cuartel de Bomberos de 25 de Mayo. Su trabajo: que alguien de 25 de Mayo que llega desde Instagram o WhatsApp entienda en segundos qué es, dónde queda, cuánto sale y en qué horarios hay clase, y que reserve la clase de prueba gratis por WhatsApp.
 
@@ -42,20 +42,22 @@ Lo demás se copia solo:
 - La cuota de los datos de la portada la copia el script corto del final de `index.html`, sin esperar a `main.js`. Sin JavaScript, la portada dice "Cuota · Ver · más abajo" y el link lleva a la cuota.
 - El JSON-LD (`ExerciseGym`) lo completa `main.js`: `priceRange` y las cuatro ofertas de `makesOffer`, con `validFrom` tomado de `data-desde`. **El JSON-LD que está escrito en el HTML no tiene precio**, a propósito, para no tener el precio en dos lugares. Google ejecuta el JS y toma la versión completa. Un validador que no ejecuta JS lo va a ver sin precio. Cuando se publique, revisarlo con la Prueba de resultados enriquecidos de Google, que sí ejecuta el JS.
 
-## Dominio (pendiente)
+## Dominio
 
-Hoy está `espaciofuncional25.com.ar`, que es el preferido. Falta definir si va `.com.ar` o `.com`. Aparece en 9 lugares:
+`espaciofuncional25.com`, comprado por Pablo el 13/10/2026. Aparece en 9 lugares:
 
 - `index.html`: `canonical` (línea 10), `og:url` (16), `og:image` (17) y, en el JSON-LD, `@id`, `url`, `image` y `logo` (31 y 34–36).
 - `robots.txt` (línea `Sitemap`) y `sitemap.xml` (`loc`).
 
-El `.htaccess` no escribe el dominio: redirige a https y sin www con el host que llegue. Para pasar a `.com`:
+El `.htaccess` no escribe el dominio: redirige a https y sin www con el host que llegue.
 
-```sh
-sed -i 's/espaciofuncional25\.com\.ar/espaciofuncional25.com/g' index.html robots.txt sitemap.xml
-```
+## Cupo
 
-## Decisiones tomadas sin Nicolás (revisar)
+**Máximo 9 por turno** (Nicolás, 13/10/2026; antes decía 7). Está en la descripción, `og:description` y el JSON-LD, en la bajada de la portada, la banda negra, el bloque del número grande (con 9 figuritas), la nota de los turnos y el pie.
+
+## Decisiones tomadas sin Nicolás
+
+Nicolás revisó el texto el 13/10/2026 y dio el OK a todo. Lo único que cambió fue el cupo (de 7 a 9).
 
 1. **Titular: «Entrená acompañado.»**, elegido por Pablo. Reemplazó a «Que quieras volver.», que no se entendía sin el contexto de la idea de Nicolás.
 2. **La cita de El enfoque está reconstruida** a partir de los subtítulos del reel del 28/07/2026, que puede tener palabras de menos, y va firmada "Nicolás Valle · Profe de Espacio Funcional 25". Dice: «Lo más fácil para un entrenador: Agotarte hasta dejarte sin aire. Lo difícil, y lo que de verdad importa: Que quieras volver cada semana, sin lastimarte entrenando.»
@@ -79,22 +81,10 @@ Tres cosas medidas en las auditorías que tocan algo que Pablo aprobó o pidió.
 
 - **Precargar Barlow 400 y 600** (A11Y-4). En 4G lento, el primer pantallazo salta 39 px cuando llegan esas fuentes (CLS 0,086–0,090). Con la precarga, el salto queda en 0 y el LCP baja medio segundo. El brief pide precargar solo la fuente del titular.
 - **Logos con pérdida** (A11Y-12). Calidad 90 y alfa al 100 ahorran unos 8,5 KB del primer pantallazo. `docs/imagenes.md` eligió "sin pérdida" a propósito.
-- **Fotos más nítidas en pantallas de alta densidad** (PC-12). Hacen falta originales de 1080 px o más (ver la pregunta 9).
-
-## Preguntas para Nicolás
-
-1. ¿El dominio va con `.com.ar` (a tu nombre, en NIC Argentina) o `.com`?
-2. ¿Los $35.000, $10.000 y $25.000 son los valores de octubre de 2026?
-3. ¿Está bien tu frase del video tal como la escribimos (decisión 1)?
-4. ¿El 2345-402547 atiende llamadas, o solo WhatsApp?
-5. En una clase, ¿se da más de una vuelta al circuito? ¿Están bien los ejemplos de cada estación?
-6. Del CV, ¿querés que figuren el cargo en el CEF Nº 198, la lista de cursos y los dos años de Medicina? ¿Añón y González llevan tilde?
-7. ¿Los alumnos que se ven en las fotos están de acuerdo?
-8. ¿Nos pasás los videos originales de los reels (sin texto) o fotos de 1080 px o más, para que se vean más nítidas?
+- **Fotos más nítidas en pantallas de alta densidad** (PC-12). Hacen falta los videos originales de los reels o fotos de 1080 px o más: pedírselos a Nicolás.
 
 ## Qué falta
 
-- Que Nicolás revise el texto antes de publicar (`TAREAS.md`).
-- Definir el dominio y publicar en Hostinger, desde `main`.
+- Publicar en Hostinger, desde `main`.
 - Probar en un celular que `wa.me/5492345402547` abra el chat bien.
 - Dar de alta el Perfil de Empresa en Google Maps y poner el link del sitio en la bio de Instagram.
