@@ -76,7 +76,7 @@ Nicolás revisó el texto el 13/10/2026 y dio el OK a todo. Lo único que cambi�
 9. **El mensaje central es que te cuida**, igual que en el plan del Instagram: en El enfoque van tres promesas («Sabe lo que hace», «Te adapta», «Te cuida: no entrenás solo, te mira, te corrige la técnica y se fija que estés bien; la salud va primero»), la portada dice «con cada ejercicio adaptado a tu nivel» y el bloque del 7 dice «así el profe te ve a vos». Sale de lo que Pablo cuenta que remarca Nicolás y del PDF («esfuerzo adaptado», «progresión gradual», «técnica correcta»). En Formación quedan a la vista el seminario de ejercicio para personas con obesidad y el curso de RCP.
 10. **La bolita del circuito da una sola vuelta de 5 segundos** cada vez que la pista entra en pantalla, y con «reducir movimiento» no se mueve (WCAG 2.2.2; antes daba vueltas sin fin, hallazgo A11Y-9).
 11. **"Pablo Añon" y "Emiliano Gonzalez"** van sin tilde, como en el CV.
-12. **El WhatsApp va con el 9** (`wa.me/5492345402547`), y el mensaje prellenado es «Hola, Nicolás. Vi la página de Espacio Funcional 25 y quiero reservar la clase de prueba gratis. ¿Qué turno tenés libre?». Así se sabe de dónde vino cada uno. Falta probarlo en un celular.
+12. **El WhatsApp va con el 9** (`wa.me/5492345402547`), y el mensaje prellenado es «Hola, Nicolás. Vi la página de Espacio Funcional 25 y quiero reservar la clase de prueba gratis. ¿Qué turno tenés libre?». Así se sabe de dónde vino cada uno. Probado en el celular el 14/10/2026: abre bien, y la vista previa del link en WhatsApp también.
 13. **Hay fotos de alumnos que se reconocen** en la portada, en Cómo es la clase y en Dónde estamos. Se usan con la autorización de Nicolás para las fotos de Instagram.
 14. **No hay mapa embebido**: solo el botón "Cómo llegar", que abre la ficha del cuartel en Google Maps. Cuando Nicolás tenga su Perfil de Empresa, hay que cambiar `hasMap` en el JSON-LD.
 15. **No se dice cuántos lugares quedan por turno**, porque habría que actualizarlo cada vez.
@@ -91,5 +91,4 @@ Tres cosas medidas en las auditorías que tocan algo que Pablo aprobó o pidió.
 
 ## Qué falta
 
-- Probar en un celular que `wa.me/5492345402547` abra el chat bien.
 - Dar de alta el Perfil de Empresa en Google Maps y poner el link del sitio en la bio de Instagram.
