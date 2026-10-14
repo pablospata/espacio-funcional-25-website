@@ -24,6 +24,10 @@ El sitio vive en el plan Cloud Startup del Hostinger de Pablo, como sitio PHP/HT
 
 Se publica el repo entero, incluidos `docs/` y este README: el `.htaccess` los devuelve como 404 (verificado el 14/10/2026: `docs/`, `README.md` y `.github/` dan 404, `.git/` da 403, http y www redirigen con 301 a https sin www).
 
+## Google Search Console
+
+Propiedad de dominio `espaciofuncional25.com` en la cuenta de Google de Pablo, verificada el 14/10/2026 con un registro TXT `google-site-verification=…` en los DNS de Hostinger. **No borrar ese registro**: si se borra, se pierde la verificación. El sitemap está enviado (estado "Correcto") y la indexación de la portada, solicitada. Si Nicolás quiere ver las estadísticas, se lo agrega como usuario en Ajustes → Usuarios y permisos.
+
 ## Cómo verlo
 
 Vista previa: https://pablospata.github.io/espacio-funcional-25-website/ (se actualiza sola con cada push a `main`; no publica `docs/` ni este README). La imagen para compartir apunta al dominio definitivo, así que en la vista previa no aparece al pasar el link por WhatsApp.
